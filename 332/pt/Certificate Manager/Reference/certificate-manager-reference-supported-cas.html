@@ -1,0 +1,275 @@
+<!-- ## Metadata_Start 
+## code: pt
+## title: Plugins de autoridades certificadoras 
+## slug: certificate-manager-reference-supported-cas 
+## seoTitle: Plugins de autoridades certificadoras 
+## description:  
+## contentType: Wysiwyg 
+## Metadata_End -->
+<p>Atualmente, o senhasegura integra-se com as autoridades listadas abaixo.&nbsp;</p>
+<p>Esse artigo descreve apenas os campos específicos de configuração do plugin de cada CA.&nbsp;</p>
+<section class="infoBox">
+    <div class="title">Info</div>
+    <div class="content">Consulte o artigo <a
+            href="/v3-32/docs/pt/certificate-manager-settings-how-to-configure-authorities"
+            rel="nofollow noopener noreferrer" target="_blank" translate="no">Como configurar Autoridades</a> para
+        outras informações de cadastro.</div>
+</section>
+<h2>Autoridade externa</h2>
+<p>Opção para gerenciar certificados de autoridades não integradas ao senhasegura.</p>
+<table style="width: 100%;">
+    <tbody>
+        <tr>
+            <td style="width: 50%; background-color: rgb(239, 239, 239);"><strong>Item</strong></td>
+            <td style="width: 50%; background-color: rgb(239, 239, 239);"><strong>Descrição</strong></td>
+        </tr>
+        <tr>
+            <td style="width: 50.0000%;"><strong>Nome</strong></td>
+            <td style="width: 50.0000%;">Identificação da AC externa.</td>
+        </tr>
+        <tr>
+            <td style="width: 50.0000%;"><strong>Ativo</strong></td>
+            <td style="width: 50.0000%;">Habilita a autoridade para utilização. Use as opções <strong>Sim</strong> e
+                <strong>Não</strong> para confirmar a ativação ou desativação da autoridade.</td>
+        </tr>
+    </tbody>
+</table>
+<hr>
+<h2>GlobalSign</h2>
+<table style="width: 100%;">
+    <tbody>
+        <tr>
+            <td style="width: 50%; background-color: rgb(239, 239, 239);"><strong>Item</strong></td>
+            <td style="width: 50%; background-color: rgb(239, 239, 239);"><strong>Descrição</strong></td>
+        </tr>
+        <tr>
+            <td style="width: 50.0000%;"><strong>Nome de usuário</strong></td>
+            <td style="width: 50.0000%;">Usuário GlobalSign.</td>
+        </tr>
+        <tr>
+            <td style="width: 50.0000%;"><strong>Senha</strong></td>
+            <td style="width: 50.0000%;">Senha GlobalSign.</td>
+        </tr>
+    </tbody>
+</table>
+<hr>
+<h2>Let's Encrypt</h2>
+<table style="width: 100%;">
+    <tbody>
+        <tr>
+            <td style="width: 50%; background-color: rgb(239, 239, 239);"><strong>Item</strong></td>
+            <td style="width: 50%; background-color: rgb(239, 239, 239);"><strong>Descrição</strong></td>
+        </tr>
+        <tr>
+            <td style="width: 50.0000%;"><strong>Emails (separados por vírgula)</strong></td>
+            <td style="width: 50.0000%;">E-mail utilizado para cadastrar a conta Let’s Encrypt.</td>
+        </tr>
+        <tr>
+            <td style="width: 50.0000%;"><strong>Senha da chave privada</strong></td>
+            <td style="width: 50.0000%;">Senha Let’s Encrypt.</td>
+        </tr>
+        <tr>
+            <td style="width: 50.0000%;"><strong>Utilizar conta existente</strong></td>
+            <td style="width: 50.0000%;">Caixa de seleção que habilita o preenchimento dos campos abaixo.</td>
+        </tr>
+        <tr>
+            <td style="width: 50.0000%;"><strong>Chave privada</strong></td>
+            <td style="width: 50.0000%;">Valor da chave privada.</td>
+        </tr>
+        <tr>
+            <td style="width: 50.0000%;"><strong>Chave pública</strong></td>
+            <td style="width: 50.0000%;">Valor da chave pública.</td>
+        </tr>
+    </tbody>
+</table>
+<section class="infoBox">
+    <div class="title">Info</div>
+    <div class="content">Se você não tem uma conta Let’s Encrypt, é possível preencher apenas o campo
+        <strong>Email</strong> com uma conta válida e salvar o registro. Com o registro salvo, basta clicar em
+        <strong>Alterar</strong> para visualizar as chaves pública e privada geradas pelo senhasegura.</div>
+</section>
+<hr>
+<h2>Site Blindado</h2>
+<table style="width: 100%;">
+    <tbody>
+        <tr>
+            <td style="width: 50%; background-color: rgb(239, 239, 239);"><strong>Item</strong></td>
+            <td style="width: 50%; background-color: rgb(239, 239, 239);"><strong>Descrição</strong></td>
+        </tr>
+        <tr>
+            <td style="width: 50.0000%;">Nome de usuário</td>
+            <td style="width: 50.0000%;">Usuário Site Blindado.</td>
+        </tr>
+        <tr>
+            <td style="width: 50.0000%;">Senha</td>
+            <td style="width: 50.0000%;">Senha Site Blindado.</td>
+        </tr>
+        <tr>
+            <td style="width: 50.0000%;">Usar a API de teste?</td>
+            <td style="width: 50.0000%;">Caixa de seleção para testar a funcionalidade de integração. Use as opções
+                <strong>Sim</strong> e <strong>Não</strong> para confirmar a execução. Esta ação testará a integração,
+                mas não garante a validade do certificado.</td>
+        </tr>
+    </tbody>
+</table>
+<hr>
+<h2>DigiCert</h2>
+<table style="width: 100%;">
+    <tbody>
+        <tr>
+            <td style="width: 50%; background-color: rgb(239, 239, 239);"><strong>Item</strong></td>
+            <td style="width: 50%; background-color: rgb(239, 239, 239);"><strong>Descrição</strong></td>
+        </tr>
+        <tr>
+            <td style="width: 50.0000%;">Nome de usuário</td>
+            <td style="width: 50.0000%;">Usuário DigiCert.</td>
+        </tr>
+        <tr>
+            <td style="width: 50.0000%;">ID da Conta</td>
+            <td style="width: 50.0000%;">ID DigiCert.</td>
+        </tr>
+        <tr>
+            <td style="width: 50.0000%;">API key</td>
+            <td style="width: 50.0000%;">Chave de API DigiCert.</td>
+        </tr>
+    </tbody>
+</table>
+<hr>
+<h2>GoDaddy</h2>
+<table style="width: 100%;">
+    <tbody>
+        <tr>
+            <td style="width: 50%; background-color: rgb(239, 239, 239);"><strong>Item</strong></td>
+            <td style="width: 50%; background-color: rgb(239, 239, 239);"><strong>Descrição</strong></td>
+        </tr>
+        <tr>
+            <td style="width: 50.0000%;"><strong>Chave</strong></td>
+            <td style="width: 50.0000%;">Chave GoDaddy.</td>
+        </tr>
+        <tr>
+            <td style="width: 50.0000%;"><strong>Secret</strong></td>
+            <td style="width: 50.0000%;">&nbsp;Segredo da chave GoDaddy.</td>
+        </tr>
+    </tbody>
+</table>
+<hr>
+<h2>Requisitos para a autoridade Microsoft CA</h2>
+<ul>
+    <li>Um Windows Server executando os Serviços de Certificados do Active Directory (AD CS).</li>
+    <li>O protocolo WinRM habilitado com HTTP ou HTTPS. A porta selecionada deve corresponder ao protocolo escolhido.
+    </li>
+    <li>A autenticação NTLM ou NTLMv2 habilitada no Windows Server que hospeda a autoridade de certificação (CA).</li>
+    <li>A conta de usuário do Windows usada como credencial de acesso deve ter:<ul>
+            <li>Privilégios administrativos no Windows Server.</li>
+            <li>Permissões para se inscrever em certificados em nome de terceiros nas configurações de segurança da CA.
+            </li>
+        </ul>
+    </li>
+</ul>
+<h2>Microsoft CA</h2>
+<table style="width: 100%;">
+    <tbody>
+        <tr>
+            <td style="width: 50%; background-color: rgb(239, 239, 239);"><strong>Item</strong></td>
+            <td style="width: 50%; background-color: rgb(239, 239, 239);"><strong>Descrição</strong></td>
+        </tr>
+        <tr>
+            <td style="width: 50.0000%;"><strong>IP para conexão com a CA</strong></td>
+            <td style="width: 50.0000%;">IP do Windows Server usado como Autoridade de Certificação.</td>
+        </tr>
+        <tr>
+            <td style="width: 50.0000%;"><strong>Hostname da CA</strong></td>
+            <td style="width: 50.0000%;">Hostname da CA.</td>
+        </tr>
+        <tr>
+            <td style="width: 50.0000%;"><strong>Plugin para conexão</strong></td>
+            <td style="width: 50.0000%;">Plugin WinRM.</td>
+        </tr>
+        <tr>
+            <td style="width: 50.0000%;"><strong>Porta</strong></td>
+            <td style="width: 50.0000%;">Porta 5985 (HTTP) ou 5986 (HTTPS).</td>
+        </tr>
+        <tr>
+            <td style="width: 50.0000%;"><strong>Credencial de acesso</strong></td>
+            <td style="width: 50.0000%;">Credencial de acesso cadastrada no PAM para acessar a máquina Windows.</td>
+        </tr>
+    </tbody>
+</table>
+<section class="infoBox">
+    <div class="title">Info</div>
+    <div class="content">Se um Modelo de Certificado não for definido, o senhasegura usará o Modelo de Certificado
+        padrão criado pelo Windows, chamado 'webserver'.</div>
+</section>
+<section class="infoBox">
+    <div class="title">Info</div>
+    <div class="content">Se você utiliza o Network Connector para a conexão com a Microsoft, defina o conector de rede
+        padrão em <strong>Configurações</strong><strong>&nbsp;➞ Parâmetros do sistema ➞ Parâmetros do sistema ➞
+            Aplicação ➞ Conector de rede</strong>. Com esta definição você garante que ele será utilizado para a conexão
+        na hora da assinatura.<span
+            style="color: rgb(0, 106, 138); font-family: Nunito, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: 0.48px; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(221, 247, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;"></span><span
+            style="color: rgb(0, 106, 138); font-family: Nunito, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: 0.48px; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(221, 247, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;color: rgb(0, 106, 138); font-family: Nunito, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: 0.48px; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(221, 247, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;"></span><span
+            style="color: rgb(0, 106, 138); font-family: Nunito, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: 0.48px; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(221, 247, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;"></span>
+    </div>
+</section>
+<hr>
+<h2>Requisitos para Entrust</h2>
+<ul>
+    <li>Integração com PKI Entrust , possibilita o gerenciamento completo do ciclo de vida dos certificados e o
+        gerenciamento operacional em todas as suas Autoridades Certificadoras (CAs).</li>
+    <li>Obter chaves de acesso de API para sua CA PKI existente para acessar a API. Entre em contato com nossa equipe de
+        operações Entrust através de seus canais normais.</li>
+</ul>
+<section class="infoBox">
+    <div class="title">Info</div>
+    <div class="content">
+        <p>Atualmente para a assinatura são suportados os certificados do tipo RSA e podem ser utilizados os seguintes
+            profiles:</p>
+        <ul>
+            <li>Web Server Certificate - CSR</li>
+            <li>SMIME Certificate - CSR</li>
+            <li>PIV 1-Key Pair - PIV Digital Signature - CSR</li>
+            <li>Person Network Authentication Certificate - CSR No Directory</li>
+            <li>ACME Public</li>
+            <li>PIV 1-Key Pair - PIV Authentication - CSR</li>
+            <li>PIV 1-Key Pair - PIV Key Management - CSR</li>
+            <li>PIV 1-Key Pair - Card Authentication &nbsp;- CSR</li>
+            <li>Network Authentication Certificate - CSR</li>
+            <li>People Network Authentication Certificate - CSR</li>
+            <li>People SMIME Certificate - CSR</li>
+            <li>Devices Network Authentication Certificate - CSR.</li>
+        </ul>
+    </div>
+</section>
+<h2>Entrust</h2>
+<table style="width: 100%;">
+    <tbody>
+        <tr>
+            <td style="width: 50%; background-color: rgb(239, 239, 239);"><strong>Item</strong></td>
+            <td style="width: 50%; background-color: rgb(239, 239, 239);"><strong>Descrição</strong></td>
+        </tr>
+        <tr>
+            <td style="width: 50%;"><strong>Nome</strong></td>
+            <td style="width: 50.0000%;">Identificação externa da CA.</td>
+        </tr>
+        <tr>
+            <td style="width: 50%;"><strong>Ativo</strong></td>
+            <td style="width: 50.0000%;">Habilita a autoridade para utilização. Use as opções
+                <strong>Sim&nbsp;</strong>e <strong>Não&nbsp;</strong>para confirmar a ativação ou desativação da
+                autoridade. Por padrão o parâmetro vem preenchido com a opção Sim.</td>
+        </tr>
+        <tr>
+            <td style="width: 50%;"><strong>Arquivo do certificado</strong></td>
+            <td style="width: 50.0000%;">O botão <strong>Escolher arquivo</strong> busca pelo certificado e realiza seu
+                upload.</td>
+        </tr>
+        <tr>
+            <td style="width: 50%;"><strong>Senha da key</strong></td>
+            <td style="width: 50.0000%;">Senha do certificado.</td>
+        </tr>
+    </tbody>
+</table>
+<p><br></p>
+<p><br></p>
+<hr>
+<p>Você ainda tem dúvidas? Entre em contato com a <a href="https://community.senhasegura.io/"
+        rel="nofollow noopener noreferrer" target="_blank" translate="no">Comunidade senhasegura</a>.</p>

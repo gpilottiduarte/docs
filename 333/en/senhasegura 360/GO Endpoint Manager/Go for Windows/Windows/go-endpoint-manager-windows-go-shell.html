@@ -1,0 +1,26 @@
+<!-- ## Metadata_Start 
+## code: en
+## title: GO Shell 
+## slug: go-endpoint-manager-windows-go-shell 
+## seoTitle: Go Shell 
+## description:  
+## contentType: Wysiwyg 
+## Metadata_End -->
+<p>GO Shell is a GO Endpoint Manager for Windows feature that allows the administrator to manage the execution of only previously allowed commands, thus having greater control over the use and security of the environment.</p><h2>Configure GO Shell</h2><ol><li>Go to the platform senhasegura.</li><li>Go to <strong>GO Endpoint Manager ➔ Policies ➔ Windows ➔ Commands.</strong></li><li>Click on the <strong>Action</strong> menu.</li><li>Choose if a general rule will be applied to all workstations or specific ones.</li><li>Fill out the form <strong>Register new Windows commands.</strong></li><li>On the tab <strong>General</strong>:<ul><li><strong>Name:</strong> choose a name for the rule of the command.</li><li><strong>Enabled:</strong> choose if the rule will be active or not.</li><li><strong>Command:</strong> write the command. For example, ipconfig, net session, tasklist, etc.</li></ul></li><li><strong>Save.</strong></li></ol><hr><h2>Execute Go Shell</h2><ol><li>Go to your workstation.</li><li>Run <strong>Core</strong>.</li><li>Click on <strong>GO</strong><strong>&nbsp;Shell</strong> at the top of the application to open.</li><li>After registering the command, only senhasegura Shell will be available, and only registered commands can be used.&nbsp;</li><li>The GO Shell shows up when accessing the CMD through Windows or Windows Shell.</li></ol><h3><strong>Examples of commands:</strong></h3><p>Type <code data-backticks="3">goshell --commands</code> to view the available commands:</p><pre><code data-code-id="section-1672422897565">C:\Program Files\senhasegura\Core&gt;goshell --commands
+
+ • exit
+ • clear-host
+ • cls
+ • clear
+</code></pre><p>Type <code data-backticks="3">goshell --help</code> to view the command options:</p><pre><code data-code-id="section-1672422897582">C:\Program Files\senhasegura\Core&gt;goshell --help
+
+Go shell arguments
+ • commands
+ • update
+ • help
+</code></pre><p>Type <code data-backticks="3">goshell --update</code> to update the list of commands:</p><pre><code data-code-id="section-1672422897589">C:\Program Files\senhasegura\Core&gt;goshell --update
+Requesting commands to the server, please wait...
+Commands obtained successfully.
+</code></pre><p>Message when a command is not available:</p><pre><code data-code-id="section-1672422897592">C:\Program Files\senhasegura\Core&gt; net session
+This command is not available.
+</code></pre><hr><h2>Read more</h2><ul><li><a href="https://docs.senhasegura.io/v3-33/docs/en/general-information-graphical-user-interface#typical-screen" rel="nofollow" translate="no">Typical screen</a></li><li><a href="https://docs.senhasegura.io/v3-33/docs/go-endpoint-manager-windows-segregated-configurations" rel="nofollow" translate="no">Segregated parameters</a></li></ul>

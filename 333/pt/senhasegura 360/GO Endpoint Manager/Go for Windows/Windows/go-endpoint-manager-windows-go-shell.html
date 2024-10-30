@@ -1,0 +1,26 @@
+<!-- ## Metadata_Start 
+## code: pt
+## title: GO Shell 
+## slug: go-endpoint-manager-windows-go-shell 
+## seoTitle: Go Shell 
+## description:  
+## contentType: Wysiwyg 
+## Metadata_End -->
+<p>O <strong>GO Shell</strong> é uma funcionalidade do GO Endpoint Manager para Windows que permite que o administrador gerencie a execução de comandos permitidos previamente. Isso garante maior controle sobre o uso e a segurança do ambiente.</p><hr><h2>Configurar o GO Shell</h2><ol><li>Acesse a plataforma senhasegura.</li><li>Vá até <strong>GO Endpoint Manager ➔ Políticas ➔ Windows ➔ Comandos.</strong></li><li>Clique no menu de <strong>Ação.</strong></li><li>Selecione se será uma regra geral para todas as workstations, ou para workstations específicas.</li><li>Preencha o formulário <strong>Cadastrar comandos windows.</strong></li><li>Na aba <strong>Geral</strong>:<ul><li><strong>Nome:</strong> defina um nome para regra do comando.</li><li><strong>Ativo:</strong> defina se está regra estará ativa ou não.</li><li><strong>Comando:</strong> escreva exatamente o comando. Por exemplo: ipconfig, net session, tasklist, etc.</li></ul></li><li>Clique em <strong>Salvar.</strong></li></ol><hr><h2>Executar o GO Shell</h2><ol><li>Acesse a workstation do usuário.</li><li>Inicie a aplicação Core.</li><li>Clique no <strong>GO</strong><strong>&nbsp;Shell</strong> no topo da aplicação para abrir.</li><li>Após cadastrar o comando, apenas o Shell do senhasegura ficará disponível e apenas será possível utilizar os comandos cadastrados.&nbsp;</li><li>Ao tentar acessar o CMD pelo Windows ou o Shell do Windows, o <strong>GO Shell&nbsp;</strong>aparecerá.<strong>&nbsp;</strong></li></ol><h3><strong>Exemplos de comandos:</strong></h3><p>Digite <code data-backticks="3">goshell --commands</code> para visualizar os comandos disponíveis:</p><pre><code data-code-id="section-1672078044944">C:\Program Files\senhasegura\Core&gt;goshell --commands
+
+ • exit
+ • clear-host
+ • cls
+ • clear
+</code></pre><p>Digite <code data-backticks="3">goshell --help</code> para visualizar as opções de comandos:</p><pre><code data-code-id="section-1672078044974">C:\Program Files\senhasegura\Core&gt;goshell --help
+
+Go shell arguments
+ • commands
+ • update
+ • help
+</code></pre><p>Digite <code data-backticks="3">goshell --update</code> para atualizar a lista de comandos:</p><pre><code class="language-none" data-code-id="section-1672078044982" data-language="none">C:\Program Files\senhasegura\Core&gt;goshell --update
+Solicitando comandos ao servidor, aguarde...
+Comandos obtidos com sucesso.
+</code></pre><p>Mensagem quando um comando não está disponível:</p><pre><code data-code-id="section-1672078044993">C:\Program Files\senhasegura\Core&gt; net session
+Este comando não está disponível.
+</code></pre><section class="internal-notes" data-permitted-all-team-members="true" data-permitted-reader-groups="" data-permitted-security-groups=""><div class="internal-note-access-details"></div><div class="title">Private notes</div><div class="content">Consultar o artigo Controle de comandos da 3.26 para ver se há mais alguma informação relevante. Esta é uma feature da 3.26 em diante.</div></section><hr><h2>Leia mais</h2><ul><li><a href="https://docs.senhasegura.io/v3-33/docs/pt/general-information-graphical-user-interface?highlight=telas%20comuns#telas-comuns" rel="nofollow" translate="no">Telas comuns</a></li><li><a href="https://docs.senhasegura.io/v3-33/docs/pt/go-endpoint-manager-windows-segregated-configurations" rel="nofollow" translate="no">Segregação por workstations</a></li></ul>

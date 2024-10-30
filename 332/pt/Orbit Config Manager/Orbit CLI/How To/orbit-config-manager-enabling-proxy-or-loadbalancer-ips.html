@@ -1,0 +1,24 @@
+<!-- ## Metadata_Start 
+## code: pt
+## title: Como permitir IPs de proxy ou loadbalancer 
+## slug: orbit-config-manager-enabling-proxy-or-loadbalancer-ips 
+## seoTitle: Enabling proxy or loadbalancer IPs 
+## description:  
+## contentType: Wysiwyg 
+## Metadata_End -->
+<p><span style="color: rgb(34, 34, 34); font-family: Inter, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">Neste documento, você encontrará os passos de como permitir IPs de proxy ou loadbalancer.</span>&nbsp;</p><h2>Permitir IPs de proxy ou loadbalancer</h2><p>Caso um sistema proxy ou loadbalancer esteja sendo utilizado, o senhasegura irá observar e identificar o cliente solicitante através da variável <code data-backticks="1">X-Forwarded-For</code>. Nestes casos, o IP permitido do token WebService A2A deve permanecer sendo o IP da aplicação, mas você deve registrar o IP do proxy/loadbalancer através do comando <code data-backticks="1">forward</code>.</p><pre><code class="lang-{.template" data-code-id="section-1664988106238" data-language="{.template language=&quot;template&quot;}">mt4adm@vmdf-giskard:~$ sudo orbit api forward -a 192.168.10.5
+mt4adm@vmdf-giskard:~$ sudo orbit api forward --enable
+mt4adm@vmdf-giskard:~$ sudo orbit api forward --show
+        Status           Enable
+        Allowed Origns   192.168.10.5
+</code></pre><p>Você pode adicionar mais IPs separados por vírgula. E para inativar, basta utilizar a opção <code data-backticks="1">disable</code>.</p><pre><code class="lang-{.template" data-code-id="section-1664988106242" data-language="{.template language=&quot;template&quot;}">mt4adm@vmdf-giskard:~$ sudo orbit api forward -a 192.168.10.5,192.168.10.6
+mt4adm@vmdf-giskard:~$ sudo orbit api forward --enable
+mt4adm@vmdf-giskard:~$ sudo orbit api forward --show
+        Status           Enable
+        Allowed Origns   192.168.10.5,192.168.10.6
+
+mt4adm@vmdf-giskard:~$ sudo orbit api forward --disable
+mt4adm@vmdf-giskard:~$ sudo orbit api forward --show
+        Status           Disable
+        Allowed Origns   192.168.10.5,192.168.10.6
+</code></pre>

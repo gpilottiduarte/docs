@@ -1,0 +1,61 @@
+<!-- ## Metadata_Start 
+## code: pt
+## title: Como gerenciar a aplicação 
+## slug: orbit-cli-how-to-manage-the-application 
+## seoTitle: Managing the Application 
+## description:  
+## contentType: Wysiwyg 
+## Metadata_End -->
+<section class="warningBox"><div class="title">Atenção</div><div class="content"><p>É possível acessar os logs da aplicação, previamente armazenados em arquivos e indexados no Elasticsearch, diretamente do segundo cluster. Esses relatórios contêm cerca de 10.000 registros.</p></div></section><p>Você pode gerenciar o estado da aplicação do senhasegura da instância com o comando <code data-backticks="1">orbit application</code>.</p><pre><code class="language-none" data-code-id="section-1664987406752" data-language="none">mt4adm@vmdf-giskard:~$ sudo orbit application --help
+Usage: orbit application [&lt;command&gt;]
+
+Application settings tools.
+
+Arguments:
+[&lt;command&gt;]    Control the application services status:
+  [start|stop|restart|status|primary|version]
+
+Flags:
+    --help       Show context-sensitive help.
+
+    --version    Show the application components versions
+    --force      Force the command execution, never prompt
+    --show
+</code></pre><ul><li><p><em><strong>start:</strong></em> Ativa a instância para uso dos usuários.</p></li><li><p><em><strong>stop:</strong></em> Inativa a instância para uso dos usuários.</p></li><li><p><em><strong>restart:</strong></em> Reinicia os serviços utilizados para distribuir a aplicação Web, com exceção do banco de dados, sistemas proxy e serviços iniciados pelo Cron.</p></li><li><p><em><strong>status:</strong></em> Exibe o status desta instância.</p></li><li><p><em><strong>primary:</strong></em> Define esta instância como Primária em um cenário de cluster.</p></li><li><p><em><strong>version:</strong></em> Exibe a versão instalada da plataforma Orbini e senhasegura .</p></li></ul><h2>Status da aplicação</h2><p>O comando <code data-backticks="1">orbit application status</code> apresenta o status de cada função primária da instância. Sendo:</p><ul><li><p><em><strong>Application:</strong></em> Status da instância quanto sua ativação. <em>Active</em> para disponível ao uso dos usuários e <em>Inactive</em> para indisponível ao uso dos usuários;</p></li><li><p><em><strong>Replication:</strong></em> Status da replicação/cluster desta instância. <em>Active</em> para indicar que é membro de cluster e <em>Inactive&nbsp;</em>para indicar que não faz parte de um cluster;</p></li><li><p><em><strong>Instance:</strong></em> Papel da instância no cluster. <em>Primary&nbsp;</em>para instância principal, <em>Secondary&nbsp;</em>para instância de apoio;</p></li></ul><pre><code class="lang-{.template" data-code-id="section-1664987406762" data-language="{.template language=&quot;template&quot;}">mt4adm@vmdf-giskard:~$ sudo orbit application status
+
+Application: Active
+Replication: Inactive
+Instance:    Primary
+</code></pre><h2>Inativar o uso da instância</h2><p>O comando <code data-backticks="1">orbit application stop</code> inativa a aplicação para uso dos usuários. Essa ação não afeta a ativação de licença e nem a execução dos robôs na instância.</p><p>Essa ação é equivalente a ativação da instância no menu <strong>Orbit Config Manager &gt; Settings &gt; Application</strong>.</p><pre><code class="lang-{.template" data-code-id="section-1664987406768" data-language="{.template language=&quot;template&quot;}">mt4adm@vmdf-giskard:~$ sudo orbit application stop
+The application services will be stopped or restarted during the process.
+Are you sure you want to proceed: y
+
+Application: Inactive
+Replication: Inactive
+Instance:    Primary
+</code></pre><h2>Ativar o uso da instância</h2><p>O comando <code data-backticks="1">orbit application start</code> ativa a aplicação para uso dos usuários. Essa ação não afeta a ativação de licença e nem a execução dos robôs na instância.</p><p>Essa ação é equivalente a ativação da instância no menu <strong>Orbit Config Manager &gt; Settings &gt; Application</strong>.</p><pre><code class="lang-{.template" data-code-id="section-1664987406775" data-language="{.template language=&quot;template&quot;}">mt4adm@vmdf-giskard:~$ sudo orbit application start
+The application services will be stopped or restarted during the process.
+Are you sure you want to proceed: y
+
+Application: Active
+Replication: Inactive
+Instance:    Primary
+</code></pre><h2>Definir a instância como primária</h2><p>O comando <code data-backticks="1">orbit application master</code> configura a instância como instância Primária. Caso a instância estiver inativa, será automáticamente ativada e elevada a Primária.</p><section class="warningBox"><div class="title">Atenção</div><div class="content"><p>A instância Primária é responsável pela execução de serviços únicos que não são executados nas demais instâncias do Cluster.</p></div></section><section class="infoBox"><div class="title">Info</div><div class="content">Este comando é utilizado apenas para ambiente em modo cluster.</div></section><section class="infoBox"><div class="title">Info</div><div class="content">Essa funcionalidade também está disponível na tela do <strong>Orbit Config Manager&nbsp;</strong>(se a instância não for a master, um botão estará disponível para assumir essa posição). Para mais detalhes, consulte a documentação de <a href="/v3-32/docs/pt/installation-data-replication-how-to-create-a-cluster" rel="nofollow" translate="no">Como criar um cluster</a>.</div></section><pre><code class="lang-{.template" data-code-id="section-1664987406782" data-language="{.template language=&quot;template&quot;}">mt4adm@vmdf-giskard:~$ sudo orbit application master
+The application services will be stopped or restarted during the process.
+Are you sure you want to proceed: y
+
+Application: Active
+Replication: Inactive
+Instance:    Primary
+</code></pre><h2>Reiniciar os serviços da aplicação</h2><p>O comando <code data-backticks="1">orbit application restart</code> reinicia os serviços utilizados para distribuir a aplicação Web, com exceção do banco de dados, sistemas proxy e serviços iniciados pelo Cron. Basicamente reinicia apenas os serviços utilizados pelo Webserver.</p><pre><code class="lang-{.template" data-code-id="section-1664987406789" data-language="{.template language=&quot;template&quot;}">mt4adm@vmdf-giskard:/home/mt4adm## sudo orbit application restart
+The application services will be stopped or restarted during the process.
+Are you sure you want to proceed: y█
+
+Application: Active
+Replication: Inactive
+Instance:    Primary
+</code></pre><h2>Obter a versão instalada</h2><p>O comando <code data-backticks="1">orbit application version</code> apresenta a versão da plataforma senhasegura e framework <strong>Orbini</strong>. Seu funcionamento é semelhante ao comando <code data-backticks="1">orbit version</code>, descrito anteriormente.</p><pre><code class="lang-{.template" data-code-id="section-1664987406794" data-language="{.template language=&quot;template&quot;}">mt4adm@vmdf-giskard:~$ sudo orbit application version
+Applications
+Orbini           5.10.13.27
+senhasegura      3.2.0.1
+</code></pre>

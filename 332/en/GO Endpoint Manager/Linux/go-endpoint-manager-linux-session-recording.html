@@ -1,0 +1,25 @@
+<!-- ## Metadata_Start 
+## code: en
+## title: Session recording 
+## slug: go-endpoint-manager-linux-session-recording 
+## seoTitle: Session recording 
+## description:  
+## contentType: Wysiwyg 
+## Metadata_End -->
+<h2>Requirements</h2><ul><li>To have a user with an identical username on the senhasegura platform.</li><li>To have an approved user in GO Endpoint Manager for Linux.</li></ul><hr><h2>Record a session</h2><p>GO Endpoint Manager for Linux allows users to be video monitored throughout their sessions, regardless of the binary run.</p><ol><li>Access the senhasegura platform.</li><li>Navigate to <strong>GO Endpoint Manager➔Policies➔Linux➔Access Policies.</strong></li><li>Click <strong>⁝&nbsp;</strong>and select the desired option: <strong>New rule, New rule for workstation&nbsp;</strong>or<strong>&nbsp;New rule for user.</strong></li><li>In the <strong>Main&nbsp;</strong>tab, complete the fields:<ul><li><strong>Policy name:&nbsp;</strong>define an easy-to-identify name.&nbsp;</li><li><strong>Enabled:</strong> if enabled, the policy will be applied across devices.</li><li><strong>Guideline:</strong> select <strong>Binary run</strong>.</li></ul></li><li>In the <strong>Application&nbsp;</strong>tab, complete the fields:<ul><li><strong>Enable audit?:</strong> the field is required and is enabled by default. Leave it <strong>Yes</strong> to audit the actions performed.</li><li><strong>Enable session recording?:</strong> mark <strong>Yes</strong> to record the sessions of logged binaries. The start of the session is linked to the execution of the binary only after the execution is over.</li><li><strong>Application path:&nbsp;</strong>the location of the program on the file system. Find the path of the program using <strong>which [the command you want].</strong></li><li><strong>Is the path a symbolic link?:</strong> check if this added path is a link to a file or directory. Find out if it's a symbolic link by typing<strong>&nbsp;ls -la [the command path you want].</strong></li></ul></li><li>Click <strong>Add.</strong><ul><li><strong>Permission:</strong> choose allowing to record the sessions.</li><li><strong>User or group:&nbsp;</strong>add who this rule is for, a user or group.</li><li><strong>User or group name:</strong> fill in the name of the user or group according to the type chosen in the previous field. It must be the user's primary group.</li></ul></li><li>Click<strong>&nbsp;Add.</strong></li><li>Click <strong>Save.</strong></li></ol><p>Below, there's an example of a session recording with the execution of the ping command:</p><pre><code class="language-shell" data-code-id="section-1685486124138" data-language="shell">user@Workstation:~$ ping -c 4 8.8.8.8
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=53 time=2.12 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=53 time=1.94 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=53 time=2.05 ms
+64 bytes from 8.8.8.8: icmp_seq=4 ttl=53 time=2.20 ms
+
+--- 8.8.8.8 ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3004ms
+rtt min/avg/max/mdev = 1.975/2.034/2.102/0.051 ms
+
+Uploading recorded output data...
+OK.
+
+Uploading recorded input data...
+OK.
+</code></pre><hr><h2>Session registration</h2><ol><li>Access the senhasegura platform.</li><li>Navigate to <strong>PAM Core➔Access Control➔Remote Sessions.</strong></li><li>Use the available fields to filter the recording.</li><li>On the<strong>&nbsp;Action</strong> column, you can view the <strong>Session Logs</strong> and <strong>Session Videos.</strong>&nbsp;</li><li>You can also <strong>Record RemoteApp from this session</strong>, <strong>Prevent purge</strong>, and <strong>Configure<strong style="box-sizing: border-box; font-weight: 700; color: rgb(34, 34, 34); font-family: Nunito, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: 0.48px; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">&nbsp;a</strong>uditors.</strong></li></ol>

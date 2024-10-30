@@ -1,0 +1,9 @@
+<!-- ## Metadata_Start 
+## code: en
+## title: Administration 
+## slug: administration-troubleshooting 
+## seoTitle: Troubleshooting Administration 
+## description:  
+## contentType: Wysiwyg 
+## Metadata_End -->
+<h2>Some scenarios for Troubleshooting </h2><hr><p><strong>Error:</strong> senhasegura does not import all users from Active Directory.</p><p><strong>Solution:</strong> some users may not be imported after configuring and integrating Active Directory with senhasegura. This error is a result of the wrong configuration of the bind.</p><hr><p><strong>Error:</strong> CPU usage at 100% in senhasegura.</p><p><strong>Solution:</strong> one of the leading causes of senhasegura consuming 100% of CPU is sessions stuck in the environment. Run the command <code data-backticks="3">ps aux | grep guacd</code> through the mt4adm credential and check the consumption of the displayed sessions.</p>

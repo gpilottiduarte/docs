@@ -1,0 +1,9 @@
+<!-- ## Metadata_Start 
+## code: en
+## title: MFA Troubleshooting 
+## slug: user-management-mfa-troubleshooting 
+## seoTitle: Troubleshooting MFA 
+## description:  
+## contentType: Wysiwyg 
+## Metadata_End -->
+<h2>Duo Security</h2><h3>The Client Secret is invalid</h3><p><strong>Error:</strong> Duo config error. Ask an admin to verify the Duo configuration. The following error is: The Client Secret is invalid</p><p><strong>Solution:</strong> Verify if the Duo Client ID and Client Secret values are correct.</p><h3>Two-factor token configuration white screen</h3><p><strong>Error:</strong> After Duo authentication, you are redirected to a page with the title 'Two-factor token configuration' without any content</p><p><strong>Solution:</strong> Ensure you have enabled the <a href="/v3-33/docs/user-management-duo-authentication" rel="noopener noreferrer" target="_blank">Authentication with Duo</a></p><h3>Duo: Invalid redirect URI</h3><p><strong>Error:</strong> "error": "invalid_grant", "error_description": "Invalid redirect URI 'https://10.66.32.33/flow/auth/twofactor/token/openid/callback'."</p><p><strong>Solution:</strong> Allow network connection between Duo and the senhasegura server</p><h3>The provided authorization grant or refresh token is invalid</h3><p><strong>Error:</strong> Duo config error. Ask an admin to verify Duo configuration. The following error is: *** invalid_grant: The provided authorization grant (e.g., authorization code) or refresh token is invalid, expired, revoked, does not match the redirection URI used in the authorization request, or was issued to another client.</p><p><strong>Solution:</strong> Start the process again. The refresh token has expired.</p>

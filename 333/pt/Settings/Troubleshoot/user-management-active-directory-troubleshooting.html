@@ -1,0 +1,9 @@
+<!-- ## Metadata_Start 
+## code: pt
+## title: Falha ao acessar o servidor AD para autenticar devido à falha de DNS 
+## slug: user-management-active-directory-troubleshooting 
+## seoTitle: Troubleshooting 
+## description:  
+## contentType: Wysiwyg 
+## Metadata_End -->
+<p>Este tópico contém informações de solução de problemas relacionados aos problemas dos usuários ao tentar se conectar ao senhasegura usando a autenticação do Active Directory.<br>Os eventos são registrados em <strong>Configurações ➔ Autenticação ➔ Active Directory</strong>, <strong>Log de falhas</strong> e <strong>Log de sincronização de grupos</strong>. Os administradores podem usar os eventos para ajudar a encontrar erros.</p><p><strong>Cenário</strong><br>O usuário falha ao autenticar usando o Provedor do Active Directory com o erro: <strong>Nome de usuário&nbsp;</strong>ou<strong>&nbsp;senha inválida</strong> ou <strong>Falha na autenticação devido a um erro interno</strong></p><p><strong>Causa</strong><br>O servidor DNS não pode fornecer o IP correto dos servidores Active Directory Provider.</p><p><strong>Solução</strong><br>É altamente recomendável configurar os provedores para que o senhasegura se conecte diretamente ao Provedor do Active Directory usando seus IPs, o senhasegura gerenciará a sequência de consultas. E se algum membro não responder ao pedido, o próximo servidor será solicitado.</p><hr><h2>Comunidade senhasegura</h2><p>Para saber mais sobre este assunto veja os tópicos criados sobre <a href="https://community.senhasegura.io/search?q=active%20directory." rel="nofollow noopener noreferrer" target="_blank" translate="no">Active Directory</a>.</p><p>Se você precisa de ajuda, pergunte na <a href="https://community.senhasegura.io/" rel="nofollow noopener noreferrer" target="_blank" translate="no">senhasegura Community</a> e obtenha uma resposta de outros usuários da comunidade e especialistas do senhasegura.</p>

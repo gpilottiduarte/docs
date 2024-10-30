@@ -1,0 +1,44 @@
+<!-- ## Metadata_Start 
+## code: pt
+## title: Como atualizar a plataforma 
+## slug: orbit-cli-how-to-update-the-platform 
+## seoTitle: Updating the platform 
+## description:  
+## contentType: Wysiwyg 
+## Metadata_End -->
+<p>Através do comando <code data-backticks="1">orbit upgrade</code> você poderá atualizar todos os pacotes da plataforma senhasegura. Isso inclui os pacotes do sistema operacional, proxy, aplicação web e configurações de segurança.</p><section class="infoBox"><div class="title">Info</div><div class="content"><p>Valide que a instância tenha acesso aos servidores de mirror oficiais do senhasegura.</p><ul><li><p><a data-tomark-pass="" href="https://deb.senhasegura.com/" rel="noopener noreferrer" target="_blank">https://deb.senhasegura.com/</a></p></li><li><p><a data-tomark-pass="" href="https://security.senhasegura.com/" rel="noopener noreferrer" target="_blank">https://security.senhasegura.com/</a></p></li></ul></div></section><h2>Preparar a atualização</h2><p>Execute o comando <code data-backticks="1">sudo apt-get update</code> para atualizar a lista de pacotes disponíveis no mirror oficial.</p><p>Utilize os argumentos <code data-backticks="1">–show</code> ou <code data-backticks="1">–check</code> para listar quais pacotes serão instalados.</p><section class="errorBox"><div class="title">Importante</div><div class="content"><p>Não execute o comando "apt-get upgrade".</p><p>Caso você o execute, use "orbit upgrade" para corrigir qualquer problema gerado.</p></div></section><pre class=" language-none"><code class="lang-{.template language-none" data-code-id="section-1664990998412" data-language="{.template language=&quot;template&quot;}">mt4adm@vmdf-giskard:~$ sudo orbit upgrade --check
+Listing...
+fajita-server-senhasegura-image/updates-buster 1.0.9-10~buster amd64
+[upgradable from: 1.0.9-9~buster]
+orbini/buster 5.10.13-28~buster all [upgradable from: 5.10.13-27~buster]
+orbit-cli/buster 1.1.0-22~buster all [upgradable from: 1.1.0-21~buster]
+senhasegura-app/buster 3.1.11-8~buster all [upgradable from: 3.1.11-7~buster]
+xrdp-senhasegura-image/updates-buster 1.0.9-10~buster amd64
+[upgradable from: 1.0.9-9~buster]
+</code></pre><h2><strong>Atualizar a instância</strong></h2><p>Para atualizar a instância basta executar o comando <code data-backticks="1">orbit upgrade</code>. O Orbit irá inicialmente validar a versão do binário <code data-backticks="1">orbit</code>, e caso aja a necessidade de atualizá-lo antes de iniciar as demais atualizações, será apresentada uma mensagem contendo as instruções de atualização.</p><pre class=" language-none"><code class="lang-{.template language-none" data-code-id="section-1664990998416" data-language="{.template language=&quot;template&quot;}">mt4adm@vmdf-giskard:~$ sudo orbit upgrade
+A new version of your system will be installed.
+Are you sure you want to proceed: y
+
+Checking for new versions. Please wait...
+
+A new version of orbit-cli is available.
+
+Run apt-get install orbit-cli before continue.
+</code></pre><p>Assim que o binário <code data-backticks="1">orbit</code> estiver atualizado, execute novamente o comando <code data-backticks="1">orbit upgrade</code> para atualizar todas demais atualizações.</p><p>O processo de atualização irá apresentar diversas mensagens relacionadas as tarefas que estão sendo executadas, e reiniciará os serviços diversas vezes durante o processo. Caso não seja possível realizar a atualização, uma mensagem de erro será apresentada ao final. Caso contrário, uma mensagem de sucesso é apresentada.</p><section class="infoBox"><div class="title">Info</div><div class="content"><p>Sempre execute o comando <code data-backticks="1">orbit version</code> para validar a versão instalada após o processo de atualização.</p></div></section><pre class=" language-none"><code class="lang-{.template language-none" data-code-id="section-1664990998420" data-language="{.template language=&quot;template&quot;}">mt4adm@vmdf-giskard:~$ sudo orbit upgrade
+A new version of your system will be installed.
+Are you sure you want to proceed: y█
+
+Checking for new versions. Please wait...
+
+...
+
+[2020-06-17 16:17:18]: Checking firewall...
+Firewall normalized
+No errors reported
+
+[2020-06-17 16:17:29]: Restarting robots...
+Done!
+No errors reported
+
+Duration: 4m3.881937248s
+</code></pre>

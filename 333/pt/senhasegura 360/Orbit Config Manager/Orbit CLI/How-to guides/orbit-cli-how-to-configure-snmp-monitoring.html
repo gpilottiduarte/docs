@@ -1,0 +1,60 @@
+<!-- ## Metadata_Start 
+## code: pt
+## title: Como configurar o monitoramento SNMP 
+## slug: orbit-cli-how-to-configure-snmp-monitoring 
+## seoTitle: SNMP Monitoring 
+## description:  
+## contentType: Wysiwyg 
+## Metadata_End -->
+<p>Utilize o comando <code data-backticks="1">orbit snmp</code> para configurar o servidor que irá receber a leitura das MIBs do senhasegura.</p><pre><code class="lang-{.template" data-code-id="section-1664989400872" data-language="{.template language=&quot;template&quot;}">mt4adm@vmdf-giskard:~$ sudo orbit snmp --help
+Usage: orbit snmp
+
+Simple Network Management Protocol (SNMP) management tools
+
+Flags:
+  -h, --help                Show context-sensitive help.
+
+  -c, --community=STRING
+  -u, --username=STRING     SNMPv3 username
+  -s, --server=STRING       Listen server ip address
+  -a, --allowed-ips=ALLOWED-IPS,...
+                            Allowed servers to query SNMP
+  -v, --version=2
+      --force               Force the command execution, never prompt
+      --show
+</code></pre><section class="warningBox"><div class="title">Cuidado</div><div class="content"><p>Os seguintes argumentos são obrigatórios:</p><ul><li><p><em><strong>community:</strong></em> <code data-backticks="1">-c</code></p></li><li><p><em><strong>server:</strong></em> <code data-backticks="1">-s</code></p></li><li><p><em><strong>allowed-ips:</strong></em> <code data-backticks="1">-a</code></p></li><li><p><em><strong>version:</strong></em> <code data-backticks="1">-v</code></p></li></ul></div></section><section class="warningBox"><div class="title">Cuidado</div><div class="content"><p>Além desses argumentos para o <em><strong>SNMPv3</strong></em> é obrigatório inserir <em><strong>username:</strong></em> <code data-backticks="1">-u</code></p></div></section><p>Para configurar a lista de servidores permitidos, utilize os argumentos conforme o exemplo. O argumento <code data-backticks="1">–server</code> deve ser preenchido com o IP da interface senhasegura. O argumento <code data-backticks="1">–allowed-ips</code> é preenchido com a lista de servidores que podem realizar a leitura SNMP.</p><h3>Configurar SNMPv2</h3><pre><code class="lang-{.template" data-code-id="section-1664989400898" data-language="{.template language=&quot;template&quot;}">mt4adm@vmdf-giskard:~$ sudo orbit snmp -c public -s 192.168.86.86 -a 192.168.86.73 -v 2
+
+? Are you sure you want to proceed? [y/N] y█
+Done!
+No errors reported
+</code></pre><p>Para listar a configuração atual, utilize o argumento <code data-backticks="1">–show</code>.</p><pre><code class="lang-{.template" data-code-id="section-1664989400918" data-language="{.template language=&quot;template&quot;}">mt4adm@vmdf-giskard:~$ sudo orbit snmp --show
+
+SNMP informations
+SNMP Listen address = 192.168.86.86
+Community public
+Allowed IPs
+192.168.86.73
+
+SNMPv3 username = N/A
+SNMPv3 authentication pass (SHA) = N/A
+SNMPv3 encryption pass (AES) = N/A
+SNMPv3 level = authpriv
+</code></pre><h3>Configurar SNMPv3</h3><pre><code class="lang-{.template" data-code-id="section-1664989400933" data-language="{.template language=&quot;template&quot;}">mt4adm@vmdf-giskard:~$ sudo orbit snmp -c public -s 192.168.86.86 -a 192.168.86.73 -v 3 -u mymonitor
+
+? Are you sure you want to proceed? [y/N] y█
+Done!
+Run 'orbit snmp --show' to view authentication and encryption settings
+Example: snmpwalk -v 3 -u mymonitor -a SHA -A iRYRWHXhMHlY -x AES -X jWSqOdVtXwyz -l authPriv 192.168.86.86
+</code></pre><p>Para listar a configuração atual, utilize o argumento <code data-backticks="1">–show</code>.</p><pre><code class="lang-{.template" data-code-id="section-1664989400945" data-language="{.template language=&quot;template&quot;}">mt4adm@vmdf-giskard:~$ sudo orbit snmp --show
+SNMP informations
+SNMP Listen address = 192.168.86.86
+Community
+Allowed IPs
+192.168.86.73
+
+SNMPv3 username = mymonitor
+SNMPv3 authentication pass (SHA) = iRYRWHXhMHlY
+SNMPv3 encryption pass (AES) = jWSqOdVtXwyz
+SNMPv3 level = authpriv
+mt4adm@vmdf-giskard:~$
+</code></pre>

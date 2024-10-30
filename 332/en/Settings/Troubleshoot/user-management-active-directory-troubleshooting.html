@@ -1,0 +1,9 @@
+<!-- ## Metadata_Start 
+## code: en
+## title: Failed to access AD server to authenticate due to DNS fault 
+## slug: user-management-active-directory-troubleshooting 
+## seoTitle: Active Directory Troubleshooting Authentication 
+## description:  
+## contentType: Wysiwyg 
+## Metadata_End -->
+<p>This topic contains troubleshooting information for issues related to users' problems when attempting to connect to senhasegura using Active Directory Authentication.<br>Events are logged on <strong>Settings ➔ Authentication ➔ Active Directory</strong>, <strong>Failure Log</strong> and <strong>Groups synchronization Log</strong>. Administrators can use the events to help find any errors.</p><h3>Failed to access AD server to authenticate due to DNS fault</h3><p><strong>Scenario</strong><br>User fails to authenticate using Active Directory Provider with the error: <em>"Invalid username or password"</em> or <em>"Authentication failed due to an internal error"</em></p><p><strong>Cause</strong><br>DNS server is not able to give the correct IP from the Active Directory Provider servers.</p><p><strong>Solution</strong><br>Is highly recommended to configure the providers to senhasegura connects straight to the Active Directory Provider using their IPs, senhasegura will manage the sequence of inquiries. And if any member does not respond to the request, the next server will be asked.</p>

@@ -1,0 +1,126 @@
+<!-- ## Metadata_Start 
+## code: en
+## title: How to manage the proxy system settings 
+## slug: orbit-cli-how-to-manage-the-proxy-system-settings 
+## seoTitle: Proxy System Settings 
+## description:  
+## contentType: Wysiwyg 
+## Metadata_End -->
+<p>Proxy system configurations can be performed using the <code data-backticks="1">orbit proxy</code> command. Each proxy has particularities, so some arguments affect only some systems.</p><pre class=" language-none"><code class="lang-{.template language-none" data-code-id="section-1664988359502" data-language="{.template language=&quot;template&quot;}">mt4adm@vmdf-giskard:~$ sudo orbit proxy --help
+Usage: orbit proxy &lt;proxy&gt; [&lt;action&gt;]
+
+Application access proxy settings
+
+Arguments:
+  &lt;proxy&gt;       The proxy name: [fajita|jumpserver|rdpgate|nss]
+  [&lt;action&gt;]    Systemd command: [start|stop|restart|status]
+
+Flags:
+  --help                        Show context-sensitive help.
+
+  --api-cons=STRING             The Consumer Key
+  --api-token=STRING            The Token
+  --rdp-encryption="high"       The proxy name: [none|low|high|medium|fips]
+  --language="en_US"            The proxy language
+  --enable-sudo                 Enable sudo automation
+  --fajita-block-interface
+  --fajita-unblock-interface
+  --force                       Force the command execution, never prompt
+  --show
+</code></pre><h2>Start, restart or stop a proxy system</h2><p>Use the <code data-backticks="1">start</code>, <code data-backticks="1">stop</code> and <code data-backticks="1">restart</code> commands to control the status of proxy systems. Use the <code data-backticks="1">status</code> command to see the current status of the service.</p><pre class=" language-none"><code class="lang-{.template language-none" data-code-id="section-1664988359530" data-language="{.template language=&quot;template&quot;}">mt4adm@vmdf-giskard:~$ sudo orbit proxy fajita stop
+The application services will be stopped or restarted during the process.
+ Are you sure you want to proceed: y
+
+mt4adm@vmdf-giskard:~$ sudo orbit proxy fajita start
+The application services will be stopped or restarted during the process.
+ Are you sure you want to proceed: y
+
+mt4adm@vmdf-giskard:~$ sudo orbit proxy fajita status
+● fajita.service - fajita service
+   Loaded: loaded (/lib/systemd/system/fajita.service; enabled;
+           vendor preset: enabled)
+   Active: active (running) since Thu 2020-06-18 17:10:39 -03; 2s ago
+ Main PID: 13842
+    Tasks: 6 (limit: 3489)
+   Memory: 29.6M
+   CGroup: /system.slice/fajita.service
+</code></pre><h2>List active settings</h2><p>To list the configuration of each proxy system, use the <code data-backticks="1">–show</code> an argument for each system.</p><pre class=" language-none"><code class="lang-{.template language-none" data-code-id="section-1664988359551" data-language="{.template language=&quot;template&quot;}">mt4adm@vmdf-giskard:~$ sudo orbit proxy fajita --show
+The Consumer Key:        88122cce2d14d5cbd57f77c552e80843d97ff4be
+The Token:               b25abee1b365458a9d719608bda85f6eb4900885
+Access proxy language:   en_US
+SUDO automation:         true
+
+mt4adm@vmdf-giskard:~$ sudo orbit proxy jumpserver --show
+The Consumer Key:        c97c7f976153753b1065a57214853dc5630436c0
+The Token:               150cd77aba427d4e4de5ce070b4c5dfe526c941b
+Access proxy language:   en_US
+SUDO automation:         True
+
+mt4adm@vmdf-giskard:~$ sudo orbit proxy rdpgate --show
+The Consumer Key:        ea3d21730571e3ba03ba9812e2579bd0b439643b
+The Token:               16c017bb51d2581f7f4eea9c5d851d8fe1d6c10c
+Access proxy language:   en_US
+RDP encryption level:    high
+Security Layer:          rdp
+SSL Ptotocols:
+TLS Ciphers:
+
+mt4adm@vmdf-giskard:~$ sudo orbit proxy nss --show
+The Consumer Key:        "a4d63bc9392880fc24358795c9f1615164d4dfa4"
+The Token:               "40f1d439fd38466fe4bd61e9c96330541d258f04"
+</code></pre><h2>Change the language</h2><p>To change the language of a proxy system, use the <code data-backticks="1">–language</code> argument. Restart the proxy after configuration.</p><pre class=" language-none"><code class="lang-{.template language-none" data-code-id="section-1664988359582" data-language="{.template language=&quot;template&quot;}">mt4adm@vmdf-giskard:~$ sudo orbit proxy fajita --language="en_US"
+The application services will be stopped or restarted during the process.
+Are you sure you want to proceed: y
+The Consumer Key:        88122cce2d14d5cbd57f77c552e80843d97ff4be
+The Token:               b25abee1b365458a9d719608bda85f6eb4900885
+Access proxy language:   en_US
+SUDO automation:         false
+</code></pre><h2>Enable the use of Automated SUDO</h2><section class="warningBox"><div class="title">Caution</div><div class="content"><p>This feature is only available for proxies.</p><p>Activation in one system is not reflected in the other.</p><p>The segregation of this functionality through the web interface concerns the use of the session within the security criteria of access groups, devices, and credentials. But if the functionality is inactive in the proxy system, the user will be unable to perform the independent automated lifting if he has the necessary permission.</p></div></section><p>Use the <code data-backticks="1">–enable-sudo</code> an argument for allowing the use of automated SUDO in the senhasegura Web Proxy or senhasegura Terminal Proxy proxies. Restart the proxy after configuration.</p><pre class=" language-none"><code class="lang-{.template language-none" data-code-id="section-1664988359599" data-language="{.template language=&quot;template&quot;}">mt4adm@vmdf-giskard:~$ sudo orbit proxy fajita  
+ --enable-sudo=false
+The application services will be stopped or restarted during the process.
+Are you sure you want to proceed: y
+The Consumer Key:        88122cce2d14d5cbd57f77c552e80843d97ff4be
+The Token:               b25abee1b365458a9d719608bda85f6eb4900885
+Access proxy language:   en_US
+SUDO automation:         false
+</code></pre><h2>Block and Enable the embedded browser interface</h2><p>The embedded browser that allows proxy access to web pages can have its interface blocked or enabled for users.</p><section class="warningBox"><div class="title">Caution</div><div class="content"><p>By enabling the interface, users can open new tabs and access other systems besides the one to which the credential grants access.</p></div></section><pre class=" language-none"><code class="lang-{.template language-none" data-code-id="section-1664988359622" data-language="{.template language=&quot;template&quot;}">mt4adm@vmdf-giskard:~$ sudo orbit proxy fajita  
+--fajita-unblock-interface
+The application services will be stopped or restarted during the process.
+Are you sure you want to proceed: y
+
+
+mt4adm@vmdf-giskard:~$ sudo orbit proxy fajita  
+--fajita-block-interface
+The application services will be stopped or restarted during the process.
+Are you sure you want to proceed: y
+</code></pre><h2>Determine the RDP encryption level</h2><p>For proxy systems dealing with RDP protocol, you can determine the encryption level of the connection. Restart the proxy after configuration.</p><pre class=" language-none"><code class="lang-{.template language-none" data-code-id="section-1664988359640" data-language="{.template language=&quot;template&quot;}">mt4adm@vmdf-giskard:~$ sudo orbit proxy fajita  
+--rdp-encryption=low
+The application services will be stopped or restarted during the process.
+Are you sure you want to proceed: y
+The Consumer Key:        88122cce2d14d5cbd57f77c552e80843d97ff4be
+The Token:               b25abee1b365458a9d719608bda85f6eb4900885
+Access proxy language:   en_US
+SUDO automation:         false
+
+mt4adm@vmdf-giskard:~$ sudo orbit proxy rdpgate  
+--rdp-encryption=high
+The application services will be stopped or restarted during the process.
+Are you sure you want to proceed: y
+The Consumer Key:        ea3d21730571e3ba03ba9812e2579bd0b439643b
+The Token:               16c017bb51d2581f7f4eea9c5d851d8fe1d6c10c
+Access proxy language:   en_US
+RDP encryption level:    high
+Security Layer:          rdp
+SSL Ptotocols:
+TLS Ciphers:
+</code></pre><h2>Set up the WebService A2A token for a system</h2><p>The WebService A2A authentication keys to the proxy systems can be determined through the arguments <code data-backticks="1">–api-cons</code> and <code data-backticks="1">–api-token</code>. Restart the proxy after configuration.</p><pre class=" language-none"><code class="lang-{.template language-none" data-code-id="section-1664988359662" data-language="{.template language=&quot;template&quot;}">mt4adm@vmdf-giskard:~$ sudo orbit proxy fajita  
+  --api-cons=88122cce2d14d5cbd57f77c552e80843d97ff4be  
+  --api-token=b25abee1b365458a9d719608bda85f6eb4900885
+The application services will be stopped or restarted during the process.
+Are you sure you want to proceed: y
+
+The Consumer Key:        88122cce2d14d5cbd57f77c552e80843d97ff4be
+The Token:               b25abee1b365458a9d719608bda85f6eb4900885
+Access proxy language:   en_US
+SUDO automation:         false
+</code></pre>

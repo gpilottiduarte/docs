@@ -1,0 +1,16 @@
+<!-- ## Metadata_Start 
+## code: en
+## title: Deploy on Hyper-V 
+## slug: virtual-appliances-hyper-v 
+## seoTitle: Deploy with HYPER-V 
+## description:  
+## contentType: Wysiwyg 
+## Metadata_End -->
+<p>Import virtual machine files with a <code data-backticks="1">.OVA</code> senhasegura application on Microsoft Windows Server servers that use the Hyper-V role.</p><p>To perform a senhasegura virtual machine import, the following steps must be performed:</p><h2>senhasegura Virtual Machine Importation</h2><ul><li><p>Import senhasegura OVA on <em><strong>Virtualbox</strong></em> or <em><strong>Vmware</strong></em>;</p></li><li><p>Export a virtual machine in OVF format;</p></li><li><p>In this process, a virtual hard disc file will be extracted. This file has a VMDK format. However, for a virtual machine to be created on Hyper-V the VHD or VDHx format should be used ;</p></li></ul><h2>Virtual Machine Image File Conversion</h2><ol><li><p>Download the Microsoft Virtual Machine Convert;</p></li><li><p>Import the converter in PowerShell;</p></li><li><p>Execute the following commands on PowerShell to load the Windows conversion module;</p><pre><code class="language-powershell" data-code-id="section-1667567543610" data-language="powershell">PS C:\WINDOWS\system32&gt; Import-Module 'C:\Program Files\Microsoft Virtual Machine Converter\MvmcCmdlet.psd1'
+</code></pre><p><br></p></li><li><p>Convert the file from .vmdk format to .vhdx through the following command;</p><pre><code class="language-powershell" data-code-id="section-1667567831265" data-language="powershell">PS C:\WINDOWS\system32&gt; ConvertTo-MvmcVirtualHardDisk -SourceLiteralPath d:\ss-andrew-v3-24042017\ss-andrew-v3-24042017-disk1.vmdk -VhdType DynamicHardDisk -VhdFormat vhdx -destination d:\ss-andrew-v3-24042017
+</code></pre><p><br></p><p>The following message will be displayed:</p><pre><code class="language-powershell" data-code-id="section-1667567876174" data-language="powershell">Destination
+-----------
+d:\ss-andrew-v3-24042017\ss-andrew-v3-24042017-disk1.vhdx
+Source
+------
+d:\ss-andrew-v3-24042017\ss-andrew-v3-24042017-disk1.vmdk</code></pre></li></ol><h2>senhasegura Virtual Machine Creation and Initialization</h2><p>On Hyper-V, create a virtual machine and indicate the disc on <code data-backticks="1">.vhdx</code> format.</p><p>Start the senhasegura virtual machine on the Hyper-V environment.</p>
