@@ -1,0 +1,3 @@
+# Documentação
+
+Documentação do senhasegura.
