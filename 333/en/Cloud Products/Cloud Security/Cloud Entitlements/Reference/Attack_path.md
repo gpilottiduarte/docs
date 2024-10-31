@@ -42,4 +42,3 @@ The **Identity details** modal shows a graphical representation of how the ident
 | **Zoom in**  | Button to zoom in on the map. |
 | **Zoom out**  | Button to zoom out on the map. |
 | **Reset camera**  | Button to reset the zoom to the initial state. Does not change the chosen layout. |
-

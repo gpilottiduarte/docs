@@ -7,14 +7,15 @@ In this article, you'll learn how to connect **Cloud Entitlements** to Azure ten
 Before proceeding, ensure that you meet the following requirements:
 
 - Create an Azure App with the following API permissions attached:
-    - `Application.Read.All`
-    - `Directory.Read.All`
-    - `AuditLog.Real.All`
-    - `Group.Read.All`
-    - `RoleManagement.Read.Directory`
-    - `User.Read.All`
-    - `UserAuthenticationMethod.Read.All`
+  - `Application.Read.All`
+  - `Directory.Read.All`
+  - `AuditLog.Real.All`
+  - `Group.Read.All`
+  - `RoleManagement.Read.Directory`
+  - `User.Read.All`
+  - `UserAuthenticationMethod.Read.All`
 
+<!-- Fix callout -->
 :::(Info) (Info)
 Make sure to use application permissions instead of delegated permissions.
 :::
@@ -38,6 +39,7 @@ To connect an Azure tenant to **Cloud Entitlements**, follow these steps:
 6. Enter the **Tenant ID**.
 7. Enter the **Secret value**.
 
+<!-- Fix callout -->
 :::(Info) (Info)
 The **Secret value** won’t be visible after connecting with the tenant.
 :::
@@ -45,6 +47,7 @@ The **Secret value** won’t be visible after connecting with the tenant.
 8. Enter the **Application ID**.
 9. If needed, attribute tags to the tenant. Separate each tag by pressing the **Enter** key.
 
+<!-- Fix callout -->
 :::(Info) (Info)
 It's not possible to use different App registrations that belong to the same tenant, as it would cause duplicity.
 :::
@@ -53,6 +56,7 @@ It's not possible to use different App registrations that belong to the same ten
 
 If the connection is successful, your Azure tenant will appear in the list of connected accounts.
 
+<!-- Fix callout -->
 :::(Error) (Important)
 If the connection is unsuccessful, review the API permissions, the role, and the client secret. You can't use the secret of a tenant that is already connected to **Cloud Entitlements**.
 :::

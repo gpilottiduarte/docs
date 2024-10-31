@@ -24,12 +24,14 @@ To connect your AWS organization to **Cloud Entitlements**, follow these steps:
 10. Download the **CloudFormation template** YAML file.
 11. In the **AWS Console**, navigate to **CloudFormation** and create a new **Stack**.
 
+<!-- Fix callout -->
 :::(Info) (Info)
 Make sure to activate trusted access in the **StackSets** area within **CloudFormation**.
 :::
 
 12. Upload the YAML template file to the ColoudFormation stack.
 
+<!-- Fix callout -->
 :::(Info) (Info)
 This template already creates all necessary IAM roles and a StackSet to integrate Cloud Entitlements with your AWS organization. You don’t need to modify anything about the stack at this stage.
 :::
@@ -41,6 +43,7 @@ This template already creates all necessary IAM roles and a StackSet to integrat
 
 If connected successfully, your AWS organization will appear in the list of connected organizations.
 
+<!-- Fix callout -->
 :::(Error) (Important)
 If the connection is unsuccessful, you must restart the process. First, in the AWS Console, delete the StackSet created by the CloudFront template, and then delete the stack. Also, delete the organization from Cloud Entitlements before making another one. You can't connect an organization that is already connected to Cloud Entitlements.
 :::

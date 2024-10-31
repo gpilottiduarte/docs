@@ -2,6 +2,7 @@
 
 In this article, you’ll learn how to view recommendations for your Cloud Service Providers (CSPs) in **Cloud Entitlements**.
 
+<!-- Fix callout -->
 ::: (warning) (Caution)
 **Cloud Entitlements** exclusively detects misconfigurations and offers security recommendations. If you decide to follow these recommendations, you must apply the changes directly within your CSP accounts.
 :::
@@ -12,21 +13,25 @@ To view recommendations, your CSP account must be **connected** and **active** w
 
 ---
 
+<!-- same heading as h1 -->
 ## How to view recommendations
 
 You can access and consult security recommendations for your CSP identities in two ways:
 
 ### 1. Via the Recommendations report
 
+<!-- Fix link -->
 1. Go to the left-side menu within Cloud Entitlements.
 2. Select **Recommendations**.
 3. In the [Recommendations report](/v3-33/docs/cloud-entitlements-recommendations-report), find the specific type of recommendation you're interested in.
-4.Click on the relevant recommendation type to open a list of identities that can benefit from this recommendation.
+4. Click on the relevant recommendation type to open a list of identities that can benefit from this recommendation.
 5. To access the details of a particular identity, simply click on it.
 
 The recommendations for the identity will be listed in order of criticality, from most to least.
 
 ### 2. Via the Identities report
+
+<!-- Fix link and step 5 is blank -->
 To view the recommendations, follow these steps:
 
 1. Go to the left-side menu within Cloud Entitlements.
@@ -41,6 +46,7 @@ The recommendations will be listed in order of criticality, from most to least.
 
 ## How to export the recommendations report as a CSV file
 
+<!-- Fix link -->
 To download the recommendations report, follow these steps:
 
 1. Access the left-side menu within **Cloud Entitlements**.

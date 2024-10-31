@@ -6,20 +6,20 @@ In this article, you’ll learn how to connect a Google Cloud Platform (GCP) org
 
 - A GCP organization.
 - A **Service account** with the following roles:
-    - `iam.serviceAccountKeys.list`
-    - `iam.serviceAccounts.list`
-    - `iam.roles.list`
-    - `iam.roles.get`
-    - `resourcemanager.organizations.getIamPolicy`
-    - `resourcemanager.projects.getIamPolicy`
-    - `resourcemanager.projects.list`
-    - `resourcemanager.projects.get`
-    - `resourcemanager.organizations.get`
+  - `iam.serviceAccountKeys.list`
+  - `iam.serviceAccounts.list`
+  - `iam.roles.list`
+  - `iam.roles.get`
+  - `resourcemanager.organizations.getIamPolicy`
+  - `resourcemanager.projects.getIamPolicy`
+  - `resourcemanager.projects.list`
+  - `resourcemanager.projects.get`
+  - `resourcemanager.organizations.get`
 - A **Key** provisioned for the Service account.
 - The following GCP APIs enabled:
-    - Resource Manager.
-    - Identity and Access Management (IAM).
-    - Cloud Assets.
+  - Resource Manager.
+  - Identity and Access Management (IAM).
+  - Cloud Assets.
 
 ## Setup a service account with organization-level permissions in Google Cloud Platform
 
@@ -33,6 +33,7 @@ Before you connect your organization to **Cloud Entitlements**, you must create 
 6. Navigate to **IAM**.
 7. In **Permissions**, click **Grant access** to add a service account as a principal.
 
+<!-- Fix callout -->
 :::(Info) (Info)
 As an organization, you can select from service accounts created within projects. If needed, you can create a new service account in **IAM & Admin > Service Accounts** > **Create service account**.
 :::
@@ -55,6 +56,7 @@ To connect your GCP organization to **Cloud Entitlements**, follow these steps:
 6. Enter a **Name** to identify your GCP organization within **Cloud Entitlements**.
 7. Enter your **Organization ID**.
 
+<!-- Fix callout -->
 :::(Info) (Info)
 Your organization ID can be found in the GCP Console by clicking the **Select project dropdown** > **All**.
 :::
@@ -64,6 +66,7 @@ Your organization ID can be found in the GCP Console by clicking the **Select pr
 
 If connected successfully, your GCP organization will appear in the list of connected organizations.
 
+<!-- Fix callout -->
 :::(Error) (Important)
 If the connection is unsuccessful, review the organization ID, the attributed roles, and the enabled APIs. You can't connect an organization already connected to the same **Cloud Entitlements** tenant.
 :::
