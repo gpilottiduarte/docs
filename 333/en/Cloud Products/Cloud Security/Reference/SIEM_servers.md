@@ -4,6 +4,7 @@
 
 You can integrate tenants with the majority of SIEM server tools on the market, such as Microsoft Sentinel or ElasticSearch. **Cloud Security** sends messages in the CEF and Syslog (RFC 5424) formats.
 
+<!-- Fix callout -->
 :::(Info) (Info)
 Any SIEM servers that can receive CEF and Syslog message types can be integrated into the **Cloud Security** platform.
 :::

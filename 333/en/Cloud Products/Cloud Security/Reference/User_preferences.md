@@ -2,6 +2,7 @@
 
 This document contains information about the **User preferences** screen on the **Cloud Security** platform. This is where you can view and modify account data, login options, as well as personal and layout preferences.
 
+<!-- Fix callout -->
 :::(Info) (Info)
 To find out how to edit your profile, access the [How to edit your profile](/v3-33/docs/cloud-security-how-to-edit-your-profile) document.
 :::

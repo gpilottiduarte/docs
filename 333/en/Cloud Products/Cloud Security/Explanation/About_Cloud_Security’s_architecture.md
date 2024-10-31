@@ -2,14 +2,17 @@
 
 In this article, you’ll find an overview of **Cloud Security’s** multi-tenant architecture and a definition of its three key levels of components.
 
+<!-- best practice is to rename the file name. also, we might have to fix height and width, it looks like it wasnt converted properly. -->
 ![Captura de tela 2023-11-24 115241.png](https://cdn.document360.io/5a1d58df-64ce-42a2-8b23-688477d32f33/Images/Documentation/Captura%20de%20tela%202023-11-24%20115241.png){height="" width=""}
 
 ## Organization
+
 An organization is the first level in the multi-tenant architecture of **Cloud Security**. Each organization is a self-contained entity that has its own set of tenants.
 
-At the organization level, there is always at least one administrator. By default, when an organization is created, it comes with one tenant associated with it. 
+At the organization level, there is always at least one administrator. By default, when an organization is created, it comes with one tenant associated with it.
 
 ## Tenant
+
 A tenant is the second level of the multi-tenant architecture. It represents a completely isolated and segregated environment within an organization.
 
 Every organization must have at least one tenant, and each tenant is always affiliated with one organization. Furthermore, each tenant must have at least one administrator.

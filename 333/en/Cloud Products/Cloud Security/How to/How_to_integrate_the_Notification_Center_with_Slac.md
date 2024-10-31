@@ -20,7 +20,7 @@ The integration with Slack is a tenant-level feature, so you’ll only receive n
 8. In the **Notification type** field, select the types of notifications you want to receive on Slack.  
 9. Click on **Save**.
 
-To add more channels, follow the tutorial above starting from step 4\.
+To add more channels, follow the tutorial above starting from step 4.
 
 ## Edit an integration between the Notification Center and Slack
 
@@ -33,4 +33,3 @@ To add more channels, follow the tutorial above starting from step 4\.
 7. In the **URL** field, enter the webhook URL.  
 8. In the **Notification type** field, select the types of notifications you want to receive on Slack.  
 9. Click on **Save**.
-
