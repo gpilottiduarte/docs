@@ -46,9 +46,9 @@ To delete an IP address, click the **trash icon** of the corresponding IP addres
 
         1. **Access credential**: enter an IP, hostname, or username to search and add a credential registered within **PAM Core**. Click the downward arrow to view a list of available credentials. Click **Add**.
 
-                ii. **Create a new credential**: check this box to create a new credential and fill in the **Device**, - click the downward arrow to view a list of available devices - **Username** and **Password** fields for the new credential. Click **Add**.
-On the same screen, under the title **Credentials**, view a list with the added credentials and their corresponding **ID**, **Credential** name, **Device**, and **Type**.
-You can deactivate an added credential by clicking the corresponding **trash can** icon.
+       ii. **Create a new credential**: check this box to create a new credential and fill in the **Device**, - click the downward arrow to view a list of available devices - **Username** and **Password** fields for the new credential. Click **Add**.
+       On the same screen, under the title **Credentials**, view a list with the added credentials and their corresponding **ID**, **Credential** name, **Device**, and **Type**.
+       You can deactivate an added credential by clicking the corresponding **trash can** icon.
     
         :::(Info) (Info)
         The created credential can be   viewed    in **PAM Core** > **Credentials** >     **All**.
