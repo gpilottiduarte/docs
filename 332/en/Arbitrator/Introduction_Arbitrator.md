@@ -7,7 +7,7 @@ The arbitrator is often used when there are two senhasegura servers operating in
 
 ![Arbitrator Architecture.png](https://cdn.document360.io/5a1d58df-64ce-42a2-8b23-688477d32f33/Images/Documentation/Arbitrator%20Architecture.png){height="" width=""}
 
-:::info (Info)
+:::info
 Our Arbitrator helps to avoid a split-brain scenario where one of the two instances fails to identify which data is the most up-to-date.
 :::
 
