@@ -99,18 +99,18 @@ HTTP/1.1 200 OK
 
 <br>
 
-    <summary>&nbsp;&emsp;&emsp;&nbsp;→<code>expiration</code> - <b>string</b> - Expiration date and time of the credential based on ISO 8601.</summary>
+<summary>&nbsp;&emsp;&emsp;&nbsp;→<code>expiration</code> - <b>string</b> - Expiration date and time of the credential based on ISO 8601.</summary>
     &nbsp;&emsp;&emsp;&nbsp;<b>Example</b>: <code>2024-05-16T17:31:31-03:00</code>
 
 <br>
 
 
-    <summary>&nbsp;&emsp;&emsp;&nbsp;→<code>change </code> - <b>string</b> - Date and time of the last modification made to the credential based on ISO 8601.</summary>
+<summary>&nbsp;&emsp;&emsp;&nbsp;→<code>change </code> - <b>string</b> - Date and time of the last modification made to the credential based on ISO 8601.</summary>
     &nbsp;&emsp;&emsp;&nbsp;<b>Example</b>: <code>2024-05-03 16:19:53</code>
 
 <br>
 
-    <summary>&nbsp;&emsp;&emsp;&nbsp;→<code>view </code> - <b>string</b> - Date and time of the last view of the credential based on ISO 8601.</summary>
+<summary>&nbsp;&emsp;&emsp;&nbsp;→<code>view </code> - <b>string</b> - Date and time of the last view of the credential based on ISO 8601.</summary>
 &nbsp;&emsp;&emsp;&nbsp;<b>Example</b>: <code>2024-05-24 16:26:09</code>
 
 <br>
