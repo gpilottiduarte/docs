@@ -50,8 +50,9 @@ You can also access the **My apps** page by clicking on your username in the upp
     2. **Expiration date**: in the first field, enter the expiration date for the authorization key, and the time in the second field. In each field, there’s a downward arrow you can click. In the first field, clicking on the arrow will display a calendar, and in the second field, you’ll view a list of times. 
 
     :::(Info) (Info)
-     If you don't set an expiration date, the authorization key will only expire if you log out out the app or manually revoke the key.
+     If you don't set an expiration date, the authorization key will only expire if you log out of the app or manually revoke the key.
     :::
+   
     3. **Application type***: check **Mobile app**. 
 
 
