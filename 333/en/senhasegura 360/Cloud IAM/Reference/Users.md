@@ -11,6 +11,7 @@ In this document, you'll find all the information about the **Users** page, whic
 
 ## Top bar
 
+<!-- Fix callout -->
 | **Item** | **Description** |
 | --- | --- |
 | **Show filters** | Represented by the magnifying glass icon, it displays or hides the search fields on the screen. |
@@ -37,8 +38,6 @@ In this document, you'll find all the information about the **Users** page, whic
 | **Enabled** | Field that filters users by their activation status. Available options are **Yes** and **No**. |
 | **Deleted** | Field that filters by deleted users. Available options are **Yes** and **No**. |
 
-{{snippet.Cloud_IAM_Reprocess_EN}}
-
 For Azure accounts, you must manually import Azure users in the actions bar.
 
 ### Add user screen
@@ -49,6 +48,7 @@ For Azure accounts, you must manually import Azure users in the actions bar.
 
 ### Settings
 
+<!-- Fix callout -->
 :::(info) (Info)
 You can provision users for multiple CSPs.
 :::

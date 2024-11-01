@@ -66,8 +66,6 @@ You can navigate timeline graphs by using the icons:
 - **Hand**: drag the timeline forward or backward.
 - **Home**: return to the latest date and default zoom state.
 - **Horizontal bars menu**: download the data in the available formats.
-    - **Download SVG**.
-    - **Download PNG**.
-    - **Download CSV**.
-
-.
+  - **Download SVG**.
+  - **Download PNG**.
+  - **Download CSV**.

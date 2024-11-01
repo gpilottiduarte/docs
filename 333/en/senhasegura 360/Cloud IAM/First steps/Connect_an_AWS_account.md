@@ -113,4 +113,5 @@ For more details, check the AWS documentation on [Manage access keys for IAM use
 Once you’re done, the senhasegura **Accounts** page will refresh with your newly integrated AWS account.
 
 ---
+
 Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).
