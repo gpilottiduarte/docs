@@ -2,11 +2,14 @@
 
 This article describes the information available on **My requests'** main page.
 
+<!-- Fix callout -->
 :::(Info) (Info)
 Path to access: **Certificate Manager > My requests**.
 :::
 
 ## Icons
+
+<!-- Fix link -->
 |Item|Description|
 |-|-|
 |**Show filters**|Represented by the magnifying glass icon, it displays or hides the search fields on the screen.|
@@ -17,6 +20,7 @@ Path to access: **Certificate Manager > My requests**.
 |**Schedule report**|Represented by the clock icon, it opens the **[Schedule report](/v3-33/docs/general-information-how-to-issue-download-and-schedule-device-reports)** form.|
 
 ## Search fields
+
 |Item|Description|
 |-|-|
 |**ID**|Used to search for the request by the event identifier number. |
@@ -34,10 +38,13 @@ Path to access: **Certificate Manager > My requests**.
 The system displays the results in a list format, with columns named after the corresponding fields.
 
 ## Action
+
 This column features action buttons to perform component-related tasks.
 
 |Item|Description|
 |-|-|
 |**Details**|Represented by the magnifying glass icon, it opens the *Request details* page.|
-***
+
+---
+
 Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).

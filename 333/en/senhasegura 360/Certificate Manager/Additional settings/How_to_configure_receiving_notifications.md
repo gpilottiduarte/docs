@@ -3,8 +3,10 @@
 This article explains how to set up notifications for the Certificate Manager component.
 
 ## Configure notifications
+
 To configure notifications, follow these steps:
 
+<!-- Fix link -->
 1. In the top left corner, click **Grid Menu**, identified by the nine squares icon, and then select **Settings**.
 2. On the side menu, select **Notifications** and then **Settings**.
 3. In the top right corner, click **View actions** (the three vertical dots icon).
@@ -28,8 +30,11 @@ To configure notifications, follow these steps:
     4. Click **Add**.
 9. Click **Save**.
 
+<!-- Fix callout -->
 :::(Info) (Info)
 The alerts sent to users will always have the same title as the notifications in senhasegura.
 :::
+
 ***
+
 Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).

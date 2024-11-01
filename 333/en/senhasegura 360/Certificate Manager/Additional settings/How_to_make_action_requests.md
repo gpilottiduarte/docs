@@ -4,18 +4,19 @@ This article explains how to request permission to perform specific actions with
 
 The actions a user can request to perform are:
 
-* View certificate passwords
-* Sign a certificate
-* Renew a certificate
-* Publish a certificate
+- View certificate passwords
+- Sign a certificate
+- Renew a certificate
+- Publish a certificate
 
 ## Requirements
 
-* A Role with the Permissions:
-    * **CertificateManager.Requests.Approval.List**
-    * **CertificateManager.Requests.Approval.View** 
+- A Role with the Permissions:
+  - **CertificateManager.Requests.Approval.List**
+  - **CertificateManager.Requests.Approval.View**
 
-* * *
+---
+
 ## Request to view a password
 
 The flow described in this tutorial applies to all the actions mentioned above. Even if your request is for another action and made from a different location than exemplified below, it doesn't change the product's behavior. Other items of the component allow making requests. Always locate the **Action** column and check the dropdown menu for possible requests.
@@ -36,7 +37,9 @@ To request to view a password, follow these steps:
 A 'request sent' message appears on the screen, indicating your approval request has been submitted.
 
 While your request is pending approval, you'll always receive an 'access denied' message if you attempt to act. Once the request is approved, return to the same item and select **View key password** to retrieve the information.
-***
+
+---
+
 ## Monitor your requests
 
 To monitor your requests, follow these steps:
@@ -46,13 +49,17 @@ To monitor your requests, follow these steps:
     2.1 Use any other field to refine the search further.
 
 According to the applied filters, your requests appear on My Requests' main page.
-* **Pending request:** indicates that one or more approvers still need to see the request.
-* **Approved request:** indicates that you can perform the action.
-* **Rejected request:** indicates that one or more approvers have declined your request.
-* **Expired request:** every request has a deadline for approval. If it's not approved within the specified time, you must submit the request again.
 
+- **Pending request:** indicates that one or more approvers still need to see the request.
+- **Approved request:** indicates that you can perform the action.
+- **Rejected request:** indicates that one or more approvers have declined your request.
+- **Expired request:** every request has a deadline for approval. If it's not approved within the specified time, you must submit the request again.
+
+<!-- Fix callout -->
 :::(Info) (Info)
 If you're using senhasegura when your request is approved, a pop-up message will appear in the bottom right corner of the screen.
 :::
-***
+
+---
+
 Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).
