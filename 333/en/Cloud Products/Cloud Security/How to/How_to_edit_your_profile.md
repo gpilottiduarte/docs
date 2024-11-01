@@ -51,6 +51,7 @@ To change your current password, follow these steps:
 8. On the new page, click **Click here to proceed**.
 9. Enter your new password.
 
+<!-- Fix callout -->
 :::(Info) (Info)
 Your new password must have at least 12 characters, one upper case letter, one special character, and one number. Ensure that this password is distinct from any you've used previously.
 :::
@@ -69,6 +70,7 @@ To define your preferences, follow these steps:
 3. Scroll down to the **Personal settings** section.
 4. Choose your preferred **Language** for the platform.
 
+<!-- Fix callout -->
 :::(Info) (Info)
 Cloud Security is currently available in English and Portuguese.
 :::

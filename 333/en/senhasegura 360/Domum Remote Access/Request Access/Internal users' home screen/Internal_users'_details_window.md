@@ -2,15 +2,16 @@
 
 This article describes the information available in the pop-up details window on the **Remote access - Third-party** screen.
 
+<!-- Fix callout -->
 :::(Info) (Info)
 Paths to access:
 
-* **Domum > Request Access > Third parties > [Third party username] > Action column > Details** represented by the magnifying glass icon.
-
-* **Domum > Reports > Credentials by user > [Third party username] > Action column > Details** represented by the magnifying glass icon.
+- **Domum > Request Access > Third parties > [Third party username] > Action column > Details** represented by the magnifying glass icon.
+- **Domum > Reports > Credentials by user > [Third party username] > Action column > Details** represented by the magnifying glass icon.
 :::
 
 ## Header
+
 The header contains the following fields:
 
 | Item | Descrição |
@@ -23,9 +24,10 @@ The header contains the following fields:
 | **Cancelled by** | User who canceled the access. This field is only available for cancelled accesses. |
 
 ---
-## Credentials 
-The section contains the following fields:
 
+## Credentials
+
+The section contains the following fields:
 
 | Item | Description |
 | --- | --- |
@@ -37,9 +39,10 @@ The section contains the following fields:
 | **View password** | Indicates whether the given access allows viewing a password using the provided credential. |
 
 ---
-## Access limitation 
-The section contains the following fields:
 
+## Access limitation
+
+The section contains the following fields:
 
 | Item | Description |
 | --- | --- |
@@ -49,9 +52,9 @@ The section contains the following fields:
 
 ---
 
-## Justification 
-The section contains the following fields:
+## Justification
 
+The section contains the following fields:
 
 | Item | Description |
 | --- | --- |
@@ -59,10 +62,7 @@ The section contains the following fields:
 | **Reason** | Reason entered by the administrator in the Enter an access reason step |
 | **Bottom row** | Last row of the section. It displays the justification entered for the access. |
 
+<!-- Fix callout -->
 :::(Info) (Info)
 There are differences between **Access reason** and **Justification**. The reasons are controlled; their pre-registration is a mandatory step for granting access. After this step, they’re available in a drop-down menu in the request window and in the **Access reasons** menu. The justification is a free text inserted by the administrator at the bottom of the request window.
 :::
-
-
-
-

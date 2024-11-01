@@ -4,12 +4,13 @@ In this document, you will learn how to connect an Oracle Cloud (OCI) compartmen
 
 ## Requirements
 
-* An OCI account with permission to generate API keys.  
-* A group with policies with the following statements:  
-    * `Allow group <group_name> to read users in tenancy`  
-    * `Allow group <group_name> to read groups in tenancy`  
-    * `Allow group <group_name> to read policies in tenancy`
-    
+<!-- need to decide how to format bullet points -->
+- An OCI account with permission to generate API keys.  
+- A group with policies with the following statements:  
+  - `Allow group <group_name> to read users in tenancy`  
+  - `Allow group <group_name> to read groups in tenancy`  
+  - `Allow group <group_name> to read policies in tenancy`
+
     For more information on creating a group with policies, see [Creating a Group](https://docs.oracle.com/en-us/iaas/Content/Identity/groups/create-groups.htm){target=`_blank`} and [Creating a Policy](https://docs.oracle.com/en-us/iaas/Content/Identity/policymgmt/managingpolicies_topic-To_create_a_policy.htm){target=`_blank`}.
 
 ## Generate an API key for a user in Oracle Cloud
@@ -32,6 +33,8 @@ key_file=<path_to_your_private_keyfile>
 ```
 
 ## Connect an OCI organization
+
+<!-- need to discuss how to address required fields -->
 
 1. Go to **Cloud Entitlements**.  
 2. In the left menu, click **Setup**, and select **Oracle Cloud (OCI)**.  

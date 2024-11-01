@@ -4,8 +4,8 @@ In this document, you’ll find detailed information about the **Internal users*
 
 ## **Path to access**
 
-1. On senhasegura, in the upper-left corner, click the **Grid Menu**, represented by the nine squares, and then select **Domum Remote Access**.   
-2. In the side menu, select **Settings \> Internal users \> Users**. 
+1. On senhasegura, in the upper-left corner, click the **Grid Menu**, represented by the nine squares, and then select **Domum Remote Access**.
+2. In the side menu, select **Settings \> Internal users \> Users**.
 
 ## **Top bar**
 
@@ -35,20 +35,20 @@ In this document, you’ll find detailed information about the **Internal users*
 
 ## **Report fields**
 
-* **ID**.  
-* **Internal users groups.**  
-* **User.**  
-* **Mobile phone.**  
-* **E-mail.**  
-* **Custom code.**  
-* **Document.**  
-* **Status.**  
-* **User type.**  
-* **Action (full user)**  
-  * **Request access**: represented by the computer icon, it opens the **Request access \- third-party user** screen for requesting access.  
-  * **Three vertical dots icon**:  
-    * **Dashboard:**  represented by the dashboard icon, it takes users to the **Dashboard** page.  
-* **Action (limited user):**  
-  * **Edit:** represented by the **paper and pencil** icon, it opens the **Update third party user**  
-    * **Disable:**  represented by the trash can icon, it disables the user’s registration.  
-    * **Dashboard:**  represented by the dashboard icon, it takes users to the **Dashboard** page.
+- **ID**.  
+- **Internal users groups.**  
+- **User.**  
+- **Mobile phone.**  
+- **E-mail.**  
+- **Custom code.**  
+- **Document.**  
+- **Status.**  
+- **User type.**  
+- **Action (full user)**  
+  - **Request access**: represented by the computer icon, it opens the **Request access \- third-party user** screen for requesting access.  
+  - **Three vertical dots icon**:  
+    - **Dashboard:**  represented by the dashboard icon, it takes users to the **Dashboard** page.  
+- **Action (limited user):**  
+  - **Edit:** represented by the **paper and pencil** icon, it opens the **Update third party user**  
+    - **Disable:**  represented by the trash can icon, it disables the user’s registration.  
+    - **Dashboard:**  represented by the dashboard icon, it takes users to the **Dashboard** page.

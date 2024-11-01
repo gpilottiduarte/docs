@@ -2,12 +2,14 @@
 
 This document outlines the steps to integrating the Google Cloud Platform (GCP) with **Cloud IAM** to provision, manage, and monitor access to the Cloud Service Provider (CSP). You can connect either a **GCP project** or a **GCP organization** to **Cloud IAM**.
 
+<!-- Fix callout and link -->
 :::(info) (Info)
 **Cloud IAM** also supports Amazon Web Services (AWS) and Microsoft Azure. If you want to integrate other CSPs, check the documentation [Connect an AWS account](/v3-33/docs/cloud-iam-connect-an-aws-account) or [Connect an Azure account](/v3-33/docs/cloud-iam-connect-an-azure-account).
 :::
 
 Before you integrate a GCP account with senhasegura, you’ll need a [Google Cloud Platform](https://cloud.google.com/) account.
 
+<!-- Fix callout -->
 :::(warning) (Warning)
 To integrate your GCP organization, you’ll need the [Organization Administrator](https://cloud.google.com/resource-manager/docs/access-control-org#resourcemanager.organizationAdmin) role or a similar role with permission to manage IAM and API resources for the organization. For projects, you’ll need the [Project IAM Admin](https://cloud.google.com/resource-manager/docs/access-control-proj#resourcemanager.projectIamAdmin) role or a similar role with permission to manage IAM and API resources for the project.
 :::
@@ -49,6 +51,7 @@ resourcemanager.projects.setIamPolicy
 
 7. Click **Create**.
 
+<!-- Fix callout -->
 :::(Info) (Info)
 You may skip the following steps if you only want to connect a project.
 :::
@@ -64,6 +67,7 @@ resourcemanager.organizations.setIamPolicy
 ```
 10. Click **Create**.
 
+<!-- Fix callout -->
 :::(info) (Info)
 For more details, check the GCP documentation on [how to manage roles and permissions](https://cloud.google.com/iam/docs/roles-overview).
 :::
@@ -79,6 +83,7 @@ For more details, check the GCP documentation on [how to manage roles and permis
 7. Configure optional settings if needed.
 8. Click **Done**.
 
+<!-- Fix callout -->
 :::(info) (Info)
 For more details, check the GCP documentation on [how to create a service account](https://cloud.google.com/iam/docs/service-accounts-create?hl=en#iam-service-accounts-create-console).
 :::
@@ -95,6 +100,7 @@ Only for **GCP organizations**, you’ll need also to add the service account yo
 8. Configure optional settings if needed.
 9. Click **Save**.
 
+<!-- Fix callout -->
 :::(info) (Info)
 For more details, check the GCP documentation on [how to manage access to organizations](https://cloud.google.com/iam/docs/granting-changing-revoking-access?hl=en).
 :::
@@ -108,6 +114,7 @@ For more details, check the GCP documentation on [how to manage access to organi
 5. Select the option **JSON**.
 6. Click **Create**. This action will download a JSON file into your device. This file must be uploaded to **Cloud IAM** to finish the integration process.
 
+<!-- Fix callout -->
 :::(info) (Info)
 For more details, check the GCP documentation on [how to create service account keys](https://cloud.google.com/iam/docs/keys-create-delete?hl=en).
 :::

@@ -2,8 +2,10 @@
 
 This article describes the information in the details window (**magnifying glass icon**) on the accesses of internal users.
 
+<!-- Fix callout -->
 :::(info) (Info)
 Path to access:
+
 - **Domum Remote Access > Request access > Internal users > [internal user name] > Action column> magnifying glass icon.**
 :::
 
@@ -36,6 +38,7 @@ The section contains the following fields:
 | Reason | It displays the reason entered by the administrator in the Register an access reason step. |
 | Bottom line | The last line of the section displays the justification entered for the access. |
 
+<!-- Fix callout -->
 :::(info) (Info)
 There are differences between **Access reason** and **Justification**. The reasons are traceable; their pre-registration is a mandatory step for granting access. After this step, they’re available in a drop-down menu in the request window and the **Access reasons** menu. The justification is a text written by the administrator at the bottom of the request window.
 :::

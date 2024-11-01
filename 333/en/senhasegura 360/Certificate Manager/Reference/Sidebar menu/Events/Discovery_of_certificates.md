@@ -2,11 +2,13 @@
 
 This article describes the information available on the **Discovery of certificates'** main page.
 
+<!-- Fix callout -->
 :::(Info) (Info)
 Path to access: **Certificate Manager > Events > Discovery of certificates**. 
 :::
 
 ## Icons
+<!-- Fix link -->
 |Item|Description|
 |-|-|
 |**Show filters**|Represented by the magnifying glass icon, it displays or hides the search fields on the screen.|
@@ -29,26 +31,31 @@ Path to access: **Certificate Manager > Events > Discovery of certificates**.
 |**Filter**|The button to execute the configured filtering process.|
 |**Clear**|The button to clear the fields with information.|
 
+<!-- Fix callout -->
 :::(warning) (**Attention**)
 For certificate scanning to function properly on Windows systems, the operating system must have the `LocalAccountTokenFilterPolicy` and `WinRM` features enabled.
 :::
 
 The system displays the results in a list format, with columns named after the corresponding fields. The list presents additional information not included in the search fields:
 
-* **ID**: the event identification number in the system.
-* **Device**: the device linked to the certificate.
-* **Organization**: the organization registered in the component's settings.
-* **Valid until**:  the certificate validity.
-* **Port/Path**: the certificate location.
-* **Scan used**: the scan used to identify the certificates in use.
+- **ID**: the event identification number in the system.
+- **Device**: the device linked to the certificate.
+- **Organization**: the organization registered in the component's settings.
+- **Valid until**:  the certificate validity.
+- **Port/Path**: the certificate location.
+- **Scan used**: the scan used to identify the certificates in use.
 
 ## Action
+
 This column features action buttons to perform component-related tasks.
+<!-- Fix link -->
 |Item|Description|
 |-|-|
 |**Linked certificate**|Represented by the identification card icon, it opens the [**Certificates**](/v3-33/docs/certificate-manager-reference-certificate-certificate-2) page.|
 |**View actions**|Represented by the three vertical dots icon, it displays a drop-down menu with possible actions for the certificates.|
 |**Certificate information**|Represented by the magnifying glass icon, it opens the [**Certificate Information**](v3-30/docs/certificate-manager-settings-how-to-download-certificate-key) page.|
 |**Publishing details**|Represented by the letter 'i' icon, it opens the *Data that will be used in future publications* page.|
-***
+
+---
+
 Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).

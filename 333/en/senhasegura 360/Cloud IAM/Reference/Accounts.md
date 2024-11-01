@@ -11,6 +11,7 @@ In this document, you'll find all the information about the **Accounts** page, w
 
 ## Top bar
 
+<!-- Fix anchors -->
 | **Item** | **Description** |
 | --- | --- |
 | **Show filters** | Represented by the magnifying glass icon, it displays or hides the search fields on the screen. |
@@ -34,8 +35,6 @@ In this document, you'll find all the information about the **Accounts** page, w
 | **Enabled** | Field that filters accounts by their activation status. Available options are Yes and No. |
 | **Connectable** | Field that filters accounts by whether **Cloud IAM** is able to connect with the associated CSP. Available options are **Yes** and **No**. |
 
-{{snippet.Cloud_IAM_Reprocess_EN}}
-
 For **Azure** accounts, you must manually import Azure credentials in the actions bar.
 
 ### Add account screen
@@ -47,6 +46,7 @@ For **Azure** accounts, you must manually import Azure credentials in the action
 
 ### Settings
 
+<!-- Fix callout -->
 :::(info) (Info)
 One account can be associated with multiple CSPs.
 :::

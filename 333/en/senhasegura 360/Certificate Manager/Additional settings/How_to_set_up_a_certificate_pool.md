@@ -14,13 +14,15 @@ To create a new pool, follow these steps:
     1. **Identification name**: enter the desired identification.
     2. **Enabled**: keep as **Yes**.
 6. In the **Certificates** tab, click on the plus icon.
-    1. Select the certificates to include in the pool. The users responsible for the added certificates will receive a notification. 
+    1. Select the certificates to include in the pool. The users responsible for the added certificates will receive a notification.
     2. Click **Add**.
 7. In the **Notifications** tab, enter the emails of other users who should receive alerts (optional).
-8. Click **Save**. 
+8. Click **Save**.
 
-On the **Pool certificates'** main page, you'll see the pool you just created. 
-***
+On the **Pool certificates'** main page, you'll see the pool you just created.
+
+---
+
 ## Edit a certificate pool
 
 To edit a pool, follow these steps:
@@ -30,11 +32,15 @@ To edit a pool, follow these steps:
 3. Update the form.
 4. Click **Save** to confirm the changes.
 
+<!-- Fix callout -->
 :::(Info) (Info)
 The counterclockwise arrow icon refreshes the screen.
 :::
-***
+
+---
+
 ## Turn off a pool
+
 To turn off a pool, follow these steps:
 
 1. On the **Pool certificates'** main page, locate the pool to turn off.
@@ -42,22 +48,28 @@ To turn off a pool, follow these steps:
 3. In **Enabled**, set to **No**.
 4. Click **Save** to confirm the deactivation.
 
-The pool will disappear from the list on the main page because the search field **Enabled** is set to **Yes** as default. Select **No** if you want to find the pool deactivated. 
-***
+The pool will disappear from the list on the main page because the search field **Enabled** is set to **Yes** as default. Select **No** if you want to find the pool deactivated.
+
+---
+
 ## Search for a pool
+
 You can use the search fields to filter the information if there are many registered pools.
 
 To locate the desired pool, follow these steps:
 
 1. On the **Pool certificates'** main page, perform the search using the following fields:
     1. **ID:** the pool ID number.
-    2. **Name** 
+    2. **Name**
     3. **Enabled:** the pool status in the system.
 2. Click **Filter** to search.
     1. Click **Clear** to erase the fields, if necessary.
 
+<!-- Fix callout -->
 :::(Info) (Info)
 The magnifying glass icon in the top right corner displays or hides the search fields.
 :::
-***
+
+---
+
 Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).

@@ -14,6 +14,7 @@ A sidebar will open with all your notifications.
 
 The following table shows all fields and buttons on the Notification center sidebar:
 
+<!-- Fix link -->
 | Item | Type | Description |
 | :---- | :---- | :---- |
 | **Refresh** | **Button.** | Refresh all notifications. |

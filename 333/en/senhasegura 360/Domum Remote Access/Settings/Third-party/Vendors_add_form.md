@@ -2,10 +2,10 @@
 
 In this document, you’ll find detailed information about the **New vendor** page, where you can register new vendors in the **Domum** module.
 
-### **Path to access**
+## **Path to access**
 
-1. On senhasegura, in the upper-left corner, click the **Grid Menu**, represented by the nine squares, and then select **Domum Remote Access**.   
-2. In the side menu, select **Settings \> Third-party \> Vendors**.   
+1. On senhasegura, in the upper-left corner, click the **Grid Menu**, represented by the nine squares, and then select **Domum Remote Access**.
+2. In the side menu, select **Settings \> Third-party \> Vendors**.
 3. On the initial report screen, click the **View actions** menu, represented by the three vertical dots icon, and select **\+ New**.
 
 ## **New vendor screen**
@@ -46,6 +46,7 @@ In this document, you’ll find detailed information about the **New vendor** pa
 | **Added by** | Name of the person who added this user to the registration.  |
 | **Added on** | Date when the user was added to the registration. |
 
+<!-- Fix callout -->
 :::(info) (Info)
 Full users must be created first within senhasegura before being associated with a group or supplier. To create a new full user, access the documents on *Users*.
 :::

@@ -1,13 +1,14 @@
 # Vendors update form
 
+<!-- Fix callout -->
 ::: (info) (Info)
 
 Paths to access:
 
-  - **Domum Remote Access > Settings > Vendors > Pencil icon**
-
-  - **Domum Remote Access > Dashboards > Monitoring Center > Vendors > Pencil icon**
+- **Domum Remote Access > Settings > Vendors > Pencil icon**
+- **Domum Remote Access > Dashboards > Monitoring Center > Vendors > Pencil icon**
 :::
+
 ## Registering Data Tab
 
 The tab presents the following fields:

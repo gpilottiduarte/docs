@@ -4,8 +4,8 @@ In this document, you’ll find detailed information about the **Third-party use
 
 ## **Path to access**
 
-1. On senhasegura, in the upper-left corner, click the **Grid Menu**, represented by the nine squares, and then select **Domum Remote Access**.   
-2. In the side menu, select **Settings \> Third-party \> Users**. 
+1. On senhasegura, in the upper-left corner, click the **Grid Menu**, represented by the nine squares, and then select **Domum Remote Access**.
+2. In the side menu, select **Settings \> Third-party \> Users**.
 
 ## **Top bar**
 
@@ -36,18 +36,18 @@ In this document, you’ll find detailed information about the **Third-party use
 
 ## **Report fields**
 
-* **ID**.  
-* **Vendor.**  
-* **User.**  
-* **Mobile phone.**  
-* **E-mail.**  
-* **Custom code.**  
-* **Document.**  
-* **Status.**  
-* **User type.**  
-* **Action**:  
-  * **Edit**: represented by the paper and pencil icon, it opens a pop-up window that allows editing the access group's information.  
-  * **Three vertical dots icon**:  
-    * **Request access:** represented by the computer icon, it opens the **Request access \- third-party user** screen for requesting access.  
-    * **Disable:**  represented by the trash can icon, it disables the user’s registration.  
-    * **Dashboard:**  represented by the dashboard icon, it takes users to the **Dashboard** page.
+- **ID**.  
+- **Vendor.**  
+- **User.**  
+- **Mobile phone.**  
+- **E-mail.**  
+- **Custom code.**  
+- **Document.**  
+- **Status.**  
+- **User type.**  
+- **Action**:  
+  - **Edit**: represented by the paper and pencil icon, it opens a pop-up window that allows editing the access group's information.  
+  - **Three vertical dots icon**:  
+    - **Request access:** represented by the computer icon, it opens the **Request access \- third-party user** screen for requesting access.  
+    - **Disable:**  represented by the trash can icon, it disables the user’s registration.  
+    - **Dashboard:**  represented by the dashboard icon, it takes users to the **Dashboard** page.

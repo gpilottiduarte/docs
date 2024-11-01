@@ -2,7 +2,7 @@
 
 This tutorial presents a step-by-step process on how to add SIEM integrations to a tenant in **Cloud Security**.
 
-### Requirements
+## Requirements
 
 - Have the role **Cloud Security - Tenant Administrator**.
 - Have one or more SIEM sockets configured in a third-party service.
@@ -23,3 +23,4 @@ This tutorial presents a step-by-step process on how to add SIEM integrations to
     5. **Message type**: in the select field, choose between **Syslog** or **CEF**.
     6. **Use TLS**: in the select field, select **Yes** to enable the TLS handshake for communication with the SIEM socket or choose **No** if Cloud Security should not initiate a TLS handshake.
 6. Click **Add**.
+7. 

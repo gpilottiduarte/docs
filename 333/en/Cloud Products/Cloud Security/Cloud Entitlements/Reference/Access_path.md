@@ -1,7 +1,7 @@
 # Access path
 
+<!-- Fix callout -->
 :::(info) (Info)
-
 The Access path feature is currently available exclusively in **Sandbox** mode.
 :::
 
@@ -11,8 +11,7 @@ In essence, it provides a visual representation of how an identity is connected 
 
 To access the **Access path** of a specific identity, simply click on the desired identity in the [Identities report](/v3-33/docs/cloud-entitlements-identities-report) and then select the **Access path** tab.
 
-
+<!-- Fix callout -->
 ::: (info) (Info)
 Use the **Filter** bar on the left to refine search results. You can also customize the visual display in **Settings** on the right.
 :::
-

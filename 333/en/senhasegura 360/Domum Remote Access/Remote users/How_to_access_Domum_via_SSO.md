@@ -2,16 +2,19 @@
 
 In addition to the conventional authentication process, senhasegura allows for simplified Single Sign-On (SSO) access to **Domum Remote Access**. This article provides a step-by-step guide for this task.
 
-* * *
+---
+
 ## Requirements
 
-* SSO access provider account.
-* Prior configuration by the administrator.
+- SSO access provider account.
+- Prior configuration by the administrator.
 
-* * *
+---
+
 There are three SSO login options in **Domum Remote Access**.
 
 ## Option 1: Access via e-mail
+<!-- Fix callout -->
 :::(Info) (Info)
 This option works for both internal users and third parties.
 :::
@@ -26,8 +29,10 @@ This option works for both internal users and third parties.
 
 You now have access to the **Domum** interface. Your home screen and permissions are dependent on your group's policies.
 
-* * *
+---
+
 ## Option 2: Access via SSO provider
+<!-- Fix callout -->
 :::(Info) (Info)
 This option works for both internal users and third parties.
 :::
@@ -41,7 +46,8 @@ This option works for both internal users and third parties.
 
 You now have access to the **Domum** interface. Your home screen and permissions are dependent on your group's policies.
 
-* * *
+---
+
 ## Option 3: Local network access (internal users only)
 
 1. Access the standard URL of the senhasegura platform.
@@ -52,10 +58,11 @@ You now have access to the **Domum** interface. Your home screen and permissions
 6. The system will redirect you to the senhasegura desktop.
 
 You now have access to the standard senhasegura interface. Your home screen and permissions are dependent on your group's policies.
-
+<!-- Fix callout -->
 :::(Warning) (Caution)
 Don’t share the link with other users, as it could lead to a breach of confidentiality and a violation of the principle of least privilege.
 :::
 
-* * *
+---
+
 Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).

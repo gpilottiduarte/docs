@@ -9,7 +9,7 @@ Device reports can be accessed via the following paths:
 
 These reports show, respectively, **Device** information, segregated into **Vendors**, **Third-party Users**, **Internal User Groups**, and **Internal Users**.
 
-## Device report information:
+## Device report information
 
 ### Icons
 

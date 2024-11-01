@@ -11,6 +11,7 @@ In this document, you'll find all the information about the **Service accounts**
 
 ## Top bar
 
+<!-- Fix anchors -->
 | **Item** | **Description** |
 | --- | --- |
 | **Show filters** | Represented by the magnifying glass icon, it displays or hides the search fields on the screen. |
@@ -37,8 +38,6 @@ In this document, you'll find all the information about the **Service accounts**
 | **Enabled** | Field that filters service accounts by their activation status. Available options are **Yes** and **No**. |
 | **Deleted** | Field that filters by deleted service accounts. Available options are **Yes** and **No**. |
 
-{{snippet.Cloud_IAM_Reprocess_EN}}
-
 For **Azure** accounts, you must manually import Azure service accounts in the actions bar.
 
 ### Add service account screen
@@ -49,6 +48,7 @@ For **Azure** accounts, you must manually import Azure service accounts in the a
 
 ### Settings
 
+<!-- Fix callout -->
 :::(info) (Info)
 You can provision service accounts for multiple CSPs.
 :::

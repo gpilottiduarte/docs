@@ -4,8 +4,8 @@ In this document, you’ll find detailed information about the **Access group** 
 
 ## **Path to access**
 
-1. On senhasegura, in the upper-left corner, click the **Grid Menu**, represented by the nine squares, and then select **Domum Remote Access**.   
-2. In the side menu, select **Access control \> Limited access group**. 
+1. On senhasegura, in the upper-left corner, click the **Grid Menu**, represented by the nine squares, and then select **Domum Remote Access**.
+2. In the side menu, select **Access control > Limited access group**.
 
 ## **Top bar**
 
@@ -32,12 +32,11 @@ In this document, you’ll find detailed information about the **Access group** 
 
 ## **Report fields**
 
-* **ID**: displays the access group's identification code.  
-* **Name**.  
-* **Permission**: displays the permissions granted to the group.  
-* **Approval**.  
-* **Active**.  
-* **Action**:  
-  * **Edit**: represented by the paper and pencil icon, it opens a pop-up window that allows editing the access group's information.  
-  * **Three vertical dots icon**: displays the **Clone** option, represented by the two paper sheets icon, which creates a copy of the access group.
-
+- **ID**: displays the access group's identification code.  
+- **Name**.  
+- **Permission**: displays the permissions granted to the group.  
+- **Approval**.  
+- **Active**.  
+- **Action**:  
+  - **Edit**: represented by the paper and pencil icon, it opens a pop-up window that allows editing the access group's information.  
+  - **Three vertical dots icon**: displays the **Clone** option, represented by the two paper sheets icon, which creates a copy of the access group.

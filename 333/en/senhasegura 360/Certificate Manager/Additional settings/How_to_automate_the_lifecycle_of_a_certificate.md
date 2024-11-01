@@ -4,11 +4,12 @@ This article explains how to automate the lifecycle of a certificate by enabling
 
 ## Requirements
 
-* Only certificates with a request generated from the senhasegura platform and ready to be used. Enable the search fields below to filter certificates with these specifications:
-    * **Origin**: select **Request**.
-    * **Status**: select **Valid**.
+- Only certificates with a request generated from the senhasegura platform and ready to be used. Enable the search fields below to filter certificates with these specifications:
+  - **Origin**: select **Request**.
+  - **Status**: select **Valid**.
 
 ## Automate flow
+
 To automate the flow, follow these steps:
 
 1. In the top left corner, click **Grid Menu**, identified by the nine squares icon, and then **Certificate Manager**.
@@ -25,5 +26,7 @@ To automate the flow, follow these steps:
 8. Click **Save**.
 
 A 'successfully saved data' message is displayed, confirming that automation is configured.
+
 ***
+
 Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).

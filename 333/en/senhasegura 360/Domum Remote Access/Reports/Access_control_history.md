@@ -2,15 +2,18 @@
 
 This article provides descriptions of the information available in the **Access control history** reports.
 
+<!-- Fix callout -->
 :::(Info) (Info)
 Path to access:
-* **Domum Remote Access > Reports > Access control history**
+- **Domum Remote Access > Reports > Access control history**
 :::
 
 The report is helpful for auditors as it enables them to track the progress of an access request. By doing so, they can identify the user who requested access and its details.
 
-* * *
+---
+
 ## Icons
+
 In the upper right corner, you have the following icons:
 
 | Item | Description |
@@ -22,7 +25,8 @@ In the upper right corner, you have the following icons:
 | **Export CSV** | Represented by the paper sheet icon, it downloads the report. |
 | **Schedule report** | Represented by the clock icon, it opens the **Schedule report** form. |
 
-* * *
+---
+
 ## Search fields
 
 If you activate the magnifying glass icon in the top right corner of the screen, you can access search fields for the reports. Once you have applied the desired filters, the system displays the results in a list format.
@@ -44,5 +48,4 @@ If you activate the magnifying glass icon in the top right corner of the screen,
 
 The displayed list provides additional information that complements the search fields:
 
-* **Magnifying glass** icon in the action column: opens a pop-up window with the access request details.
-
+- **Magnifying glass** icon in the action column: opens a pop-up window with the access request details.

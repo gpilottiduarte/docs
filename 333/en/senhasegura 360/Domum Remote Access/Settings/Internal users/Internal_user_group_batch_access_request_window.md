@@ -1,16 +1,18 @@
 # Internal user group batch access request window
 
+<!-- Fix link -->
 This article describes the fields in the **Batch access request** window for internal users of **Domum Remote Access**. For more details, access the documentation on [how to request batch access for internal users](/v3-33/docs/domum-batch-access-for-employees).
 
+<!-- Fix callout -->
 :::(Info) (Info)
-Paths to access: 
+Paths to access:
 
-* **Domum Remote Access > Settings > Internal users > Groups > [Name of the internal user group] > Action** column **> Three vertical dots icon > Batch request access** (represented by a computer icon)
+- **Domum Remote Access > Settings > Internal users > Groups > [Name of the internal user group] > Action** column **> Three vertical dots icon > Batch request access** (represented by a computer icon)
 :::
 
 ## Settings tab
-The tab displays the following fields:
 
+The tab displays the following fields:
 
 | Item | Description |
 | --- | --- |
@@ -20,8 +22,8 @@ The tab displays the following fields:
 | **Governance code** | Optional field. It displays a space for entering a governance code, if applicable. |
 
 ## Access limitation tab
-The tab displays the following fields:
 
+The tab displays the following fields:
 
 | Item | Descrição |
 | --- | --- |

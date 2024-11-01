@@ -6,6 +6,7 @@ This article explains how to set up the **Certificate Authorities** feature. A C
 
 To create a new authority, follow these steps:
 
+<!-- Fix link -->
 1. In the top left corner, click **Grid Menu**, identified by the nine squares icon, and then select **Certificate Manager**.
 2. On the side menu, select **Settings** and then **Authorities**.
 3. In the top right corner, click **View actions** (the three vertical dots icon).
@@ -17,19 +18,26 @@ To create a new authority, follow these steps:
 9. Click **Save**.
 
 On the **Authorities'** main page, you'll see the authority you just created.
-***
+
+---
+
 ## Edit an authority
+
 To edit an authority, follow these steps:
 
 1. On the **Authorities'** main page, locate the authority you want.
 2. In the corresponding **Action** column, click **Edit** (the pencil icon).
 3. Update the form.
 4. Click **Save** to confirm the changes.
+<!-- Fix callout -->
 :::(Info) (Info)
 The counterclockwise arrow icon  in the top right corner refreshes the screen.
 :::
-***
+
+---
+
 ## Deactivate an authority
+
 To deactivate an authority, follow these steps:
 
 1. On the **Authorities'** main page, locate the authority to deactivate.
@@ -37,11 +45,14 @@ To deactivate an authority, follow these steps:
 3. In **Enable**, set to **No**.
 4. Click **Save** to confirm the deactivation.
 
-The authority will disappear from the list on the main page because the search field **Enabled** is set to **Yes** as default. Select **No** if you want to find the authority deactivated. 
+The authority will disappear from the list on the main page because the search field **Enabled** is set to **Yes** as default. Select **No** if you want to find the authority deactivated.
 
 You can always select **Edit** to enable the authority again.
-* * *
+
+---
+
 ## Search for an authority
+
 You can use the search fields to filter the information if there are many registered authorities.
 
 To locate the desired authority, follow these steps:
@@ -58,8 +69,11 @@ To locate the desired authority, follow these steps:
     9. **Enabled**: the authority status in the system.
 2. Click **Filter** to perform the search.
     1. Click **Clear** to erase the fields, if necessary.
+<!-- Fix callout -->
 :::(Info) (Info)
 The magnifying glass icon in the top right corner displays or hides the search fields.
 :::
-***
+
+---
+
 Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).

@@ -5,18 +5,18 @@ In this article, you'll learn how to connect **Cloud Entitlements** to your Goog
 ## Requirements
 
 - A **Service account** that contains the following roles:
-    - `iam.serviceAccountKeys.list`
-    - `iam.serviceAccounts.list`
-    - `iam.roles.list` 
-    - `iam.roles.get`
-    - `resourcemanager.organizations.getIamPolicy`
-    - `resourcemanager.projects.getIamPolicy`
-    - `resourcemanager.projects.list`
+  - `iam.serviceAccountKeys.list`
+  - `iam.serviceAccounts.list`
+  - `iam.roles.list`
+  - `iam.roles.get`
+  - `resourcemanager.organizations.getIamPolicy`
+  - `resourcemanager.projects.getIamPolicy`
+  - `resourcemanager.projects.list`
 - A **Key** provisioned for the Service account.
 - The following GCP APIs enabled:
-    - Resource Manager.
-    - Identity and Access Management (IAM).
-    - Cloud Assets.
+  - Resource Manager.
+  - Identity and Access Management (IAM).
+  - Cloud Assets.
 
 ---
 
@@ -37,6 +37,7 @@ To connect your GCP project to **Cloud Entitlements**, follow these steps:
 
 If connected successfully, your GCP project will appear in the list of connected projects.
 
+<!-- Fix callout -->
 :::(Error) (Important)
 If the connection is unsuccessful, review the project ID, the roles, and the enabled APIs. You can't use an ID from a project that is already connected to **Cloud Entitlements**.
 :::

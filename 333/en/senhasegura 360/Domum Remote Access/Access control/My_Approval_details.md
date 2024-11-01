@@ -43,6 +43,7 @@ The section displays the following fields:
 | Reason | Displays the reason entered by the administrator in the Register an access reason step. |
 | Bottom line | The last line of the section displays the justification entered for the access. |
 
+<!-- Fix callout -->
 :::(Info) (Info)
 There are differences between **Access reasons** and **Justifications**. Reasons are controlled; pre-registering them is a mandatory step for granting access. After this step, it's available in a drop-down menu in the request window and appears in the **Access reasons** menu. The justification is a text entered by the administrator at the bottom of the request window.
 :::

@@ -1,5 +1,6 @@
 # Risk rating
 
+<!-- Fix HTML -->
 The certificate risk rating is a scale that assesses and sets a grade for certificates according to the following criteria:
 
 - Encryption algorithm
@@ -27,11 +28,15 @@ For each criterion, the certificate can gain or lose points. The final result is
 
 The classification does not restrict the use of certificates. You can define whether or not to use a low-rated certificate on your systems.
 
+<!-- Fix callout -->
 :::(warning) (Warning)
 We do not recommend using low-rated certificates in productive environments.
 :::
-***
+
+---
+
 ## Rating criteria
+
 The sum of the criteria below generates a total that falls within one of the ranges, resulting in the final security rating of the certificate.
 
 ### Encryption algorithm
@@ -43,7 +48,7 @@ The sum of the criteria below generates a total that falls within one of the ran
 
 ### Encryption key size
 
-**RSA**
+#### RSA
 
 | Size | Score |
 |---|---|
@@ -52,7 +57,7 @@ The sum of the criteria below generates a total that falls within one of the ran
 | 1024 bits     | <span style="color:#71EA90">**+10**</span> |
 | < 1024 bits   | <span style="color:#F93E3E">**-100**</span> |
 
-**EC/ECDSA**
+#### EC/ECDSA
 
 | Size | Score |
 |---|---|
@@ -106,9 +111,7 @@ The sum of the criteria below generates a total that falls within one of the ran
 | Revoked* | <span style="color:#F93E3E">**-100**</span> |
 | Others | **0** |
 
+<!-- Fix callout -->
 :::(Warning) (Warning)
 The certificate is considered revoked when its intermediate or root certificate is revoked.
 :::
-
-
-

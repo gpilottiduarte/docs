@@ -1,24 +1,27 @@
 # Sessions report
 
-This article provides descriptions of the information available in **Domum Remote Access** session reports. 
+This article provides descriptions of the information available in **Domum Remote Access** session reports.
 
+<!-- Fix callout -->
 :::(Info) (Info)
 
 Paths to access:
 
-* **Domum Remote Access > Reports > Sessions**
-* **Domum Remote Access > Dashboards > Vendors > Behavior > Current accesses**
-* **Domum Remote Access > Dashboards > Internal user groups > User behavior > Current access**
+- **Domum Remote Access > Reports > Sessions**
+- **Domum Remote Access > Dashboards > Vendors > Behavior > Current accesses**
+- **Domum Remote Access > Dashboards > Internal user groups > User behavior > Current access**
 
 :::
 
 The reports show session details and allow you to check credentials and devices used.
 
-* * *
+---
+
 ## Icons
+
 In the upper right corner, you have the following icons:
 
-
+<!-- Fix link -->
 | Item | Description |
 | --- | --- |
 | **Show filters** | Represented by the magnifying glass icon, it displays or hides the search fields on the screen. |
@@ -28,8 +31,10 @@ In the upper right corner, you have the following icons:
 | **Export CSV** | Represented by the paper sheet icon, it downloads the report. |
 | **Schedule report** | Represented by the clock icon, it opens the [Schedule report](/v3-33/docs/general-information-how-to-issue-download-and-schedule-device-reports) form. |
 
-* * *
+---
+
 ## Search fields
+
 If you activate the magnifying glass icon in the top right corner of the screen, you can access search options for the reports. Once you have applied the desired filters, the system displays the results in a list format.
 
 | Item | Description |
@@ -46,14 +51,13 @@ If you activate the magnifying glass icon in the top right corner of the screen,
 
 The displayed list provides additional information that complements the search fields:
 
-* **Origin IP**:  user's IP address at the time of access.
-* **Protocol**:  the protocol used to perform the session.
-* **Session ID**:  the session ID code.
-* **End**:  when the session has ended.
-* **Time**:  the session duration.
+- **Origin IP**:  user's IP address at the time of access.
+- **Protocol**:  the protocol used to perform the session.
+- **Session ID**:  the session ID code.
+- **End**:  when the session has ended.
+- **Time**:  the session duration.
 
+<!-- Fix callout -->
 :::(Info) (Info)
 senhasegura stores the remote sessions that occurred via Domum, making them available for consultation.
 :::
-
-

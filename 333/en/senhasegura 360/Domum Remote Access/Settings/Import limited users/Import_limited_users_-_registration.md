@@ -2,7 +2,7 @@
 
 This document provides all the information about the initial **Batch Import from third parties** screen, which lists all batch imports of this type that have been performed and the creation of a new import.
 
-### Access Path
+## Access Path
 
 1. In senhasegura, in the upper left corner, click on the **Grid Menu**, represented by the nine squares, and select **Domum Remote Access**.
 2. In the side menu, select **Settings > Batch import limited users > +Import**.
@@ -16,12 +16,14 @@ This document provides all the information about the initial **Batch Import from
 | **Template file** | Button located in the lower right corner of the screen that starts the download of the import `.xlxs` file to be filled in. |
 | **Import data** | Button located in the lower right corner of the screen to confirm the import of the chosen file. |
 
+<!-- Fix callout -->
 :::(Warning) (Attention)
 To fill out the template, read the instructions on how the fields should be filled out in the spreadsheet.
 :::
 
 ## Request batch access - third party user screen
 
+<!-- Fix callout -->
 :::(Info) (Info)
 This screen will only be available when the **Automatically provide access after import** option is selected as **Yes**.
 :::
@@ -63,7 +65,7 @@ This screen will only be available when the **Automatically provide access after
 | **View password** | Checkbox to grant permission to view the password. |
 
 ### **Access limitation step**
-#### 
+
 #### **Access permission period section**
 
 | Item | Description |

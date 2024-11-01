@@ -1,11 +1,14 @@
 # Requests
 
 This article describes the information available on the **Requests'** main page.
+<!-- Fix callout -->
 :::(Info) (Info)
 Path to access: **Certificate Manager > Certificates > Requests**.
 :::
+
 ## Icons
 
+<!-- Fix link -->
 | Item | Description |
 | --- | --- |
 | **Show filters** |Represented by the magnifying glass icon, it displays or hides the search fields on the screen.|
@@ -23,7 +26,7 @@ Path to access: **Certificate Manager > Certificates > Requests**.
 | --- | --- |
 | **ID** |Used to search for the request by its identification number in the system.|
 | **Name** |Used to search for the request by its name.|
-| **Status** |Used to search for the request by its status. It displays a dropdown menu with the options *Generating*, *Generated*, *Signature requested*, *Request approved*, *Request rejected*, *Waiting signature*, *Signed*, *Error signing*, *Canceled*, *Waiting edition*, *Error generating CSR*, *Error generating the key*, and *Awaiting processing*.| 
+| **Status** |Used to search for the request by its status. It displays a dropdown menu with the options *Generating*, *Generated*, *Signature requested*, *Request approved*, *Request rejected*, *Waiting signature*, *Signed*, *Error signing*, *Canceled*, *Waiting edition*, *Error generating CSR*, *Error generating the key*, and *Awaiting processing*.|
 | **Organization** |Used to search for the request by the organization.|
 | **Key** |Used to search for the request by the encryption key selected. It displays a dropdown menu with the options *RSA* and *DSA*.|
 | **Encryption** |Used to search for the request by the hash function algorithm used. It displays a dropdown menu with the options *SHA256*, *SHA384*, and *SHA512*.|
@@ -34,17 +37,23 @@ Path to access: **Certificate Manager > Certificates > Requests**.
 | **Clear** |The button to clear the fields with information.|
 
 The system displays the results in a list format, with columns named after the corresponding fields. The list presents additional information not included in the search fields:
+
 * **Responsible:** the user registered in senhasegura as responsible for the request.
 * **Imported?:** this signals whether the request was imported or not to senhasegura.
 * **Random certificates:** it presents the number of random certificates generated from the request. When clicking on the number, a new window will display the requests for each certificate.
+<!-- Fix callout -->
 :::(Error) (Important)
 Random requests will only appear listed after the main one has been signed.
 :::
+
 ## Action
+
 This column features action buttons to perform component-related tasks.
+<!-- Fix callout -->
 :::(Info) (Info)
 To view some options, you need specific permissions. These permissions are defined within the Certificate Manager Access group.
 :::
+<!-- Fix link -->
 | Item | Description |
 | --- | --- |
 | **View certificate** |Represented by the identification card icon, it opens the **[Certificates](/v3-33/docs/certificate-manager-reference-certificate-certificate-2)** page.|
@@ -56,5 +65,7 @@ To view some options, you need specific permissions. These permissions are defin
 | **Clone request** |Represented by the clone icon (two overlapping squares), it opens a pop-up message to confirm the cloning of the request. It's useful when you only need to update the certificate validity.|
 | **View Password Key** |Represented by the key icon. When selected, displays three ways to retrieve the certificate password: *View*, *Copy*, or *Spell*.|
 | **Validation guidelines** |Represented by the letter 'i' icon, it opens the *Validation guidelines* page with information on how to carry out the request validation process. This option is visible only if an error happens while signing the request.|
+
 ***
+
 Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).

@@ -6,6 +6,7 @@
 
 The organization audit report offers you the following information about actions performed:
 
+<!-- Fix anchors -->
 | Item | Description |
 | --- | --- |
 | **Product** | The **Product** column displays the name of the specific product where the action occurred. |
@@ -16,6 +17,7 @@ The organization audit report offers you the following information about actions
 | **Entity ID** | The **Entity ID** column provides the ID of the Entity that was altered. |
 | **Date** | The **Date** column indicates the exact timestamp when the action occurred. |
 
+<!-- Fix callout -->
 :::(Info) (Info)
 Users can change the entity’s name, but the entity ID will always remain the same. This ensures that changes can be traced back to the original entity.
 :::

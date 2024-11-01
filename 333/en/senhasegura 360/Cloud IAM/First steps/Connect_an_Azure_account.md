@@ -1,10 +1,14 @@
 # Connect an Azure account
 
+<!-- 
 :::(Internal) (Private notes)
 O conteúdo desta página foi formatado mas não foi atualizado junto do GAP devido ao [bug de integração](https://mt4.atlassian.net/browse/SSGR-3305). 
 :::
+-->
 
 To manage users, accounts, credentials, and virtual machines, you must configure an Azure account to integrate with senhasegura.
+
+<!-- Fix callout -->
 :::(Info) (Info)
  **Cloud IAM** requests only the necessary permissions to prevent excess privileges.
 :::

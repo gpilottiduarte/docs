@@ -10,15 +10,17 @@ To view the recommendations report from all identities:
 2. On the Cloud Entitlements product, click **Access**.  
 3. In the left menu, click **Recommendations**.
 
+<!-- same heading as h1 -->
 ## Recommendations report
 
 On the top right, four pie charts offer a visual summary of criticality levels for your CSPs:
 
-* Orange chart: presents the total number of recommendations categorized as High criticality.  
-* Yellow chart: presents the total number of recommendations categorized as Medium criticality.  
-* Green chart: presents the total number of recommendations categorized as Low criticality.  
-* Blue chart:  presents the total number of recommendations categorized as Info criticality.
+- Orange chart: presents the total number of recommendations categorized as High criticality.  
+- Yellow chart: presents the total number of recommendations categorized as Medium criticality.  
+- Green chart: presents the total number of recommendations categorized as Low criticality.  
+- Blue chart:  presents the total number of recommendations categorized as Info criticality.
 
+<!-- Fix callout -->
 ::: (Info) (Info)
  Hover over the chart segments to view the distribution of recommendations per CSP provider.
 :::
@@ -34,10 +36,10 @@ Within the report, you'll find the following information for each recommendation
 
 Use the search bar at the top of the report to locate specific recommendations. Next to the search bar, you'll find filters that allow you to filter the report based on:
 
-* Provider.  
-* Criticality.
+- Provider.  
+- Criticality.
 
-You also have buttons export the report as a `.csv` file, and to show or hide columns. 
+You also have buttons export the report as a `.csv` file, and to show or hide columns.
 
 By clicking on one specific recommendation, the page will be updated to a new screen of the specific recommendation. In this screen, you’ll have the following information for the recommendation:
 
@@ -50,7 +52,7 @@ By clicking on one specific recommendation, the page will be updated to a new sc
 
 Use the search bar at the top of the report to locate specific identities. Next to the search bar, you'll find filters that allow you to filter the report based on:
 
-* Administrator.  
-* Type.
+- Administrator
+- Type.
 
-You also have buttons export the report as a `.csv` file, and to show or hide columns. 
+You also have buttons export the report as a `.csv` file, and to show or hide columns.

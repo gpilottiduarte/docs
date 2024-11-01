@@ -11,6 +11,7 @@ In this document, you'll find all the information about the **Credentials** page
 
 ## Top bar
 
+<!-- Fix anchors -->
 | **Item** | **Description** |
 | --- | --- |
 | **Show filters** | Represented by the magnifying glass icon, it displays or hides the search fields on the screen. |
@@ -36,8 +37,6 @@ In this document, you'll find all the information about the **Credentials** page
 | **Enabled** | Field that filters credentials by their activation status. Available options are **Yes** and **No**. |
 | **Deleted** | Field that filters by deleted credentials. Available options are **Yes** and **No**. |
 | **Provider** | Select field that filters credentials by one of the three available providers. Available options are: **AWS**, **Google Cloud**, and **Azure**. |
-
-{{snippet.Cloud_IAM_Reprocess_EN}}
 
 For **Azure** accounts, you must manually import Azure credentials in the actions bar.
 

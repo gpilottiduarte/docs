@@ -1,11 +1,15 @@
 # Publishing
 
 This article describes the information available on the **Publishing's** main page.
+
+<!-- Fix callout -->
 :::(Info) (Info)
 Path to access: **Certificate Manager > Publishing**.
 :::
+
 ## Icons
 
+<!-- Fix link -->
 | Item | Description |
 | --- | --- |
 |**Show filters**|Represented by the magnifying glass icon, it displays or hides the search fields on the screen.|
@@ -30,16 +34,20 @@ Path to access: **Certificate Manager > Publishing**.
 
 The system displays the results in a list format, with columns named after the corresponding fields. The list presents additional information not included in the search fields:
 
-* **Certificate:** it presents the certificate's name.
-* **Number of devices:** it presents how many devices received the published certificate.
-* **Keystore:** it presents the storage format of the private key.
+- **Certificate:** it presents the certificate's name.
+- **Number of devices:** it presents how many devices received the published certificate.
+- **Keystore:** it presents the storage format of the private key.
 
 ## Action
+
 This column features action buttons to perform component-related tasks.
+
+<!-- Fix link -->
 | Item | Description |
 | --- | --- |
 |**View operations**|Represented by the three horizontal lines icon, it opens the **[Operations](/v3-33/docs/certificate-manager-reference-operations)** page.|
-|**Restart execution**|The button to restart unfinished operations. It’s located in the bottom right corner of the *Operations* page. At least one record must be selected in order to execute the process.
-***
-Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).
+|**Restart execution**|The button to restart unfinished operations. It’s located in the bottom right corner of the *Operations* page. At least one record must be selected in order to execute the process.|
 
+---
+
+Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).

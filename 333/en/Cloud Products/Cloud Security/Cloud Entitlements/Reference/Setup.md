@@ -67,6 +67,7 @@ In the **Actions** column, represented by the three vertical dots, you have thre
 - **Security Policies**: redirects to the security policy screen of the selected tenant.  
 - **Reprocess**: reprocesses the tenant, synchronizing the data with the CSP.
 
+<!-- Fix callout -->
 :::(Warning) (Attention)
 If an invalid access key is used to connect providers to the tenant in **Cloud Security**, the user responsible for the connection will receive an email notification. Additionally, an alert will be displayed in the list. Accounts with an invalid access key won’t have their data updated in **Cloud Entitlements**.
 :::

@@ -10,6 +10,7 @@ This document contains technical details on the **Admin console** page in **Clou
 
 ## Tenant settings
 
+<!-- Fix callout -->
 :::(Info) (Info)
 Only users with the **Cloud Security - Tenant Administrator** permission can see and access tenant administration pages.
 :::
@@ -22,6 +23,7 @@ Only users with the **Cloud Security - Tenant Administrator** permission can see
 
 ## Organization settings
 
+<!-- Fix callout -->
 :::(Info) (Info)
 Only users with the **Cloud Entitlements - Administrator** permission can see and access organization administration pages.
 :::
