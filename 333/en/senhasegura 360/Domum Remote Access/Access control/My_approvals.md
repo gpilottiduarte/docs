@@ -2,17 +2,20 @@
 
 This article provides details of the **My approvals** home screen in the **Access control** menu. The screen displays only approval requests directed to the currently logged-in user in the senhasegura platform. Unlike other menus, access to information about other **Domum** users is not available.
 
+<!-- Fix callout -->
 :::(Info) (Info)
 
 Path to access:
 
-* **Domum Remote Access > Access control > My approvals**
+- **Domum Remote Access > Access control > My approvals**
 
 :::
 
 ## Search Bar
+
 In the top right corner, you’ll find the following icons:
 
+<!-- Fix link -->
 | Item           | Description                                                |
 |----------------|------------------------------------------------------------|
 | **Show filters**   | Magnifying glass icon, shows or hides search fields on the screen. |
@@ -20,9 +23,10 @@ In the top right corner, you’ll find the following icons:
 | **Show actions**   | Three vertical dots icon, displays a drop-down menu with possible actions for the page. |
 | **Print report**   | Printer icon, opens a new page for printing the report.     |
 | **Export CSV**     | Paper sheet icon, downloads the report.                    |
-| **Schedule report** | Clock icon, opens the [Schedule report](/v3-33/docs/general-information-how-to-issue-download-and-schedule-device-reports) form.                |
+| **Schedule report** | Clock icon, opens the [Schedule report](/v3-33/docs/general-information-how-to-issue-download-and-schedule-device-reports) form. |
 
 ## Search Fields
+
 If you activate the magnifying glass icon in the top right corner of the screen, you can access search fields for requests.
 
 | Item           | Description                                                |
@@ -41,9 +45,9 @@ If you activate the magnifying glass icon in the top right corner of the screen,
 
 After applying the desired filters, the system displays the results in a list format. In addition to the filter information, you will find the following data:
 
-* **Requested on**: displays the exact date and time of the request.
-* **Validity**: displays the exact date and time of the request expiration.
-* **Approve**: represented by the checkmark icon, it approves the request.
-* **Show Actions**: Represented by the 3 vertical dots icon, displays a dropdown menu with possible actions:
-    * **Reject**: represented by the X icon, it rejects the request.
-    * **Details**: represented by the magnifying glass icon, it opens a pop-up window with the details of the request.
+- **Requested on**: displays the exact date and time of the request.
+- **Validity**: displays the exact date and time of the request expiration.
+- **Approve**: represented by the checkmark icon, it approves the request.
+- **Show Actions**: Represented by the 3 vertical dots icon, displays a dropdown menu with possible actions:
+  - **Reject**: represented by the X icon, it rejects the request.
+  - **Details**: represented by the magnifying glass icon, it opens a pop-up window with the details of the request.

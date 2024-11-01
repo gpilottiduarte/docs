@@ -5,14 +5,15 @@ In this document, you’ll find a step-by-step guide on how to register a limite
 ## **Register limited access group**
 
 1. On senhasegura, in the upper-left corner, click the **Grid Menu**, represented by the nine squares, and select **Domum** **Remote Access.**  
-2. In the side menu, select **Access control \> Limited access group**.  
-3. In the report window, click the **View action** menu, represented by the three vertical dots icon, and select **\+ New**.  
+2. In the side menu, select **Access control > Limited access group**.  
+3. In the report window, click the **View action** menu, represented by the three vertical dots icon, and select **+ New**.  
 4. In the **Access group registration** window, fill in:  
    1. **Access group name\***: enter the access group name.  
-   2. **Enabled\***: select the status of the group created. The options are **Yes** and **No.**  
-   3. **Description:** enter a description for the created group.  
+   2. **Enabled\***: select the status of the group created. The options are **Yes** and **No.**
+   3. **Description:** enter a description for the created group.
+      <!-- Fix callout -->
         ::: (warning) (**Attention**)  
-        These policies are applied at the moment of access request for limited users and they have no effect        after      the link is sent to the user. 
+        These policies are applied at the moment of access request for limited users and they have no effect after the link is sent to the user.
         :::
 
    4. **Settings** tab:  
@@ -29,26 +30,25 @@ In this document, you’ll find a step-by-step guide on how to register a limite
       3. In **Access request settings**, choose **Yes** or **No** for the following options:  
          1. **Governance ID required when justifying?\***: requires the user to enter an ITSM code when providing a justification.  
          2. **Can Limited Users request their own access?\***: allows a limited user to request access.
-
+         <!-- Fix callout -->
         :::(info) (Info)  
-      * Keep in mind your approval workflow before enabling this option.  
-       * Limited Users can only request access to credentials they had previous access to.  
-        * Limited Users need at least one active access to request new access.   
+      - Keep in mind your approval workflow before enabling this option.  
+       - Limited Users can only request access to credentials they had previous access to.  
+        - Limited Users need at least one active access to request new access.
         :::
 
-  5. **Approvers** tab:  
+  1. **Approvers** tab:  
      1. Click the **plus** icon and select the users who will approve the password and session requests enabled in the **Settings** tab.  
      2. The added approvers will be listed in the table. If the **Approval in levels** option is enabled, define the level for each approver in the **Level** column.  
-          
-        :::(warning) (**Attention**)   
-        For an approver to access the approval workflow screen, they must have at least the PAM Operator profile.   
-        **:::**
-
-        
+         <!-- Fix callout -->
+        :::(warning) (**Attention**)
+        For an approver to access the approval workflow screen, they must have at least the PAM Operator profile.
+        :::
 
 5. Click **Save.**
 
-A confirmation message will be displayed, and the group will appear in the report list.   
+A confirmation message will be displayed, and the group will appear in the report list.
+
+---
 
 Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).
-

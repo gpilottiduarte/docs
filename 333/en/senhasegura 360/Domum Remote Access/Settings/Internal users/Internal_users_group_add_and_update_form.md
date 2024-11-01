@@ -2,11 +2,10 @@
 
 In this document, you’ll find detailed information about the **New internal users group** page, where you can register register new internal user groups in the **Domum** module.
 
+## **Path to access**
 
-### **Path to access**
-
-1. On senhasegura, in the upper-left corner, click the **Grid Menu**, represented by the nine squares, and then select **Domum Remote Access**.   
-2. In the side menu, select **Settings \> Internal users \> Groups**.   
+1. On senhasegura, in the upper-left corner, click the **Grid Menu**, represented by the nine squares, and then select **Domum Remote Access**.
+2. In the side menu, select **Settings \> Internal users \> Groups**.
 3. On the initial report screen, click the **View actions** menu, represented by the three vertical dots icon, and select  **New**.
 
 ## **New internal users group screen**
@@ -40,6 +39,7 @@ In this document, you’ll find detailed information about the **New internal us
 | **Added by** | Name of the person who added this user to the registration.  |
 | **Added on** | Date when the user was added to this registration." |
 
+<!-- Fix callout -->
 :::(info) (Info)
 
 Full users must be created first within senhasegura before being associated with a group or supplier. To create a new full user, access the documents on *Users*.

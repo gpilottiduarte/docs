@@ -9,7 +9,7 @@ This document provides a step-by-step guide on how to request access for complet
 3. In the window that opens, **Request Access**, in the **General** step, fill in the information.
    1. **Supplier**.
    2. **User**: select the user.
-
+<!-- Fix callout -->
 :::(Info) (Info)
 Being a complete type user, the message “This is a complete user, this access will have its permissions according to the user group roles” will be displayed.
 :::

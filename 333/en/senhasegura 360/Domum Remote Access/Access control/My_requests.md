@@ -1,16 +1,20 @@
 # My requests
 
 This article provides details about the home page **My Requests** in the **Access Control** menu on the senhasegura platform. The screen exclusively displays requests made by the currently logged-in user and does not provide access to information from other **Domum** users.
+
+<!-- Fix callout -->
 ::: (info) (Info)
 Path to access:
 
-* **Domum Remote Access > Access Control > My Requests**
+- **Domum Remote Access > Access Control > My Requests**
 
 :::
+
 ## Search bar
 
 In the upper right corner, you'll find the following icons:
 
+<!-- Fix link -->
 | Item          | Description                                                         |
 |---------------|---------------------------------------------------------------------|
 | **Show Filters**  | Represented by the magnifying glass icon, shows or hides the search fields on the screen. |
@@ -19,7 +23,6 @@ In the upper right corner, you'll find the following icons:
 | **Print Report**  | Represented by the printer icon, opens a new page for printing the report. |
 | **Export CSV**    | Represented by the paper sheet icon, downloads the report.           |
 | **Schedule Report** | Represented by the clock icon, opens the [Schedule Report](/v3-33/docs/general-information-how-to-issue-download-and-schedule-device-reports) form.       |
-
 
 ## Search fields
 
@@ -36,9 +39,8 @@ Activating the magnifying glass icon in the upper right corner provides access t
 | **Status** | Filters by the status of the request. The field displays a drop-down menu with options **Pending**, **Approved**, **Rejected**, or **Expired**. |
 | **Governance** | Filters the request by the governance code. The search will work only for cases where it was registered. |
 | **Reason** | Filters the request by the registered reason. |
-| **Filter**| Executes the configured filtering process.
-| **Clear**| Clears filled fields.
-
+| **Filter**| Executes the configured filtering process. |
+| **Clear**| Clears filled fields. |
 
 After applying the desired filters, the system displays the results in a list format. In addition to the filter information, you will find the following data:
 

@@ -2,11 +2,12 @@
 
 In this article, you will find a step-by-step guide on how to add reasons to use in a access.
 
-### Requirements
+## Requirements
 
-* Be an admin user.
+- Be an admin user.
 
 ---
+
 ### Register reason
 
 1. On the senhasegura platform, in the top left corner, click on the **Grid Menu**, represented by the nine squares, and select **Domum Remote Access**.
@@ -19,8 +20,10 @@ In this article, you will find a step-by-step guide on how to add reasons to use
 
 The system displays a message confirming the registration of the reason.
 
----
-## Next:
+### Next
+
 [Access reasons home screen](/v3-33/docs/domum-access-reasons-home-screen)
 
-Do you still have questions? Reach out to the [senhasegura community](https://community.senhasegura.io/){target=`_blank`}.
+---
+
+Do you still have questions? Reach out to the [senhasegura community](https://community.senhasegura.io/).

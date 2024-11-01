@@ -31,11 +31,11 @@ In this document, you'll find a step-by-step guide to requesting access for inte
       2. **Reason\*:** select a previously registered reason for granting access.  
       3. **Governance code:** enter the code, if any.  
 2. Click **Next**.  
-3. In the **Devices** step:   
+3. In the **Devices** step:
    1. Click the add icon and select the desired devices from the list provided.  
    2. Click **Add**.  
 4. Click **Next**.  
-5. In the **Credentials** step:   
+5. In the **Credentials** step:
    1. Click the add icon and select the desired credentials.  
    2. Click **Add**.  
    3. For each credential in the table, select the permission that will be granted, **Login** and/or **View password**.  
@@ -54,4 +54,3 @@ A confirmation message will be displayed, and the request's progress can be moni
 ---
 
 Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).
-

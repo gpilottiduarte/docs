@@ -5,10 +5,10 @@ In this document, you'll find all the information on the **Vendors** report, whi
 ## **Path to access**
 
 1. On senhasegura, in the upper-left corner, click the **Grid Menu**, represented by the nine squares, and select **Domum**.
-
 2. In the side menu, select **Settings > Third-party > Vendors**.
 
 ---
+
 ## **Top bar**
 
 | Item  | Description |
@@ -37,18 +37,18 @@ In this document, you'll find all the information on the **Vendors** report, whi
 
 ## **Campos do relatório**
 
-* **ID.**  
-* **Access group.**  
-* **Vendor.**  
-* **Contract number.**  
-* **Document ID.**  
-* **Start date.**  
-* **Due date.**  
-* **Status.**  
-* **Action:**  
-  * **Edit:** represented by the pencil and paper icon, it opens the **Update vendor** window, which allows you to fill in and edit the vendor.  
-  * **New batch access:** represented by the group icon, it opens the window that allows you to request batch access for the vendor's users, which can be full or limited.
-  * **Panic button:** takes immediate defensive action in the event of an incident.
-  * **Three vertical dots:**  
-    * **Disable:** represented by the trash can icon, deactivates the registered vendor's record.  
-    * **Dashboard:** represented by the dashboard icon, redirects to the **Dashboard** page.
+- **ID.**  
+- **Access group.**  
+- **Vendor.**  
+- **Contract number.**  
+- **Document ID.**  
+- **Start date.**  
+- **Due date.**  
+- **Status.**  
+- **Action:**  
+  - **Edit:** represented by the pencil and paper icon, it opens the **Update vendor** window, which allows you to fill in and edit the vendor.  
+  - **New batch access:** represented by the group icon, it opens the window that allows you to request batch access for the vendor's users, which can be full or limited.
+  - **Panic button:** takes immediate defensive action in the event of an incident.
+  - **Three vertical dots:**  
+    - **Disable:** represented by the trash can icon, deactivates the registered vendor's record.  
+    - **Dashboard:** represented by the dashboard icon, redirects to the **Dashboard** page.

@@ -2,11 +2,13 @@
 
 This article presents details of the Domum interface for third-party users.
 
+<!-- Fix callout -->
 :::(Info) (Info)
 The policy of your group and the administrator settings will determine your permissions and the functionalities available on the screen.
 :::
 
-* * *
+---
+
 ## Header
 
 You’ll find the following options in the header:
@@ -16,18 +18,20 @@ You’ll find the following options in the header:
 | **Search bar** | On-screen search field. |
 | + **New Access** button | It opens a window for requesting new access. |
 
+### User Icon
 
-#### User Icon
 It displays a drop-down menu with three options:  
+
 | Item | Description |
 | --- | --- |
 |**Language** |Window with a retractable menu to choose the default language.   |
 | **Token** | Window for authentication token configuration. If you already have a token registered and complete the action, the system cancels the previous one.  |
 |**Sign Out** | Option to exit the application |
 
-* * *
+---
 
 ## Available access
+
 The section lists all released accesses to the third-party user. Each record shows the following information:
 
 | Item | Description |
@@ -39,7 +43,8 @@ The section lists all released accesses to the third-party user. Each record sho
 | **Expires in** |It indicates the time remaining to end the access. |
 | **Remaining sessions** | It indicates the number of sessions still available, according to the previous configuration at the time of the access request in the access restriction tab. |
 
-#### Icons under Available access
+### Icons under Available access
+
 Still under **Available access**, you can perform actions related to the respective listed records. You’ll find the following icons in the right column:
 
 | Icon | Description |Action |
@@ -49,9 +54,10 @@ Still under **Available access**, you can perform actions related to the respect
 |**Magnifying glass** | Details |It opens the **Access details** window. |
 |**Hourglass** | Increase access time |It opens the **Increase access time** window. |
 
-* * *
+---
 
 ## My custody
+
 The section lists credentials and devices under the third-party user's custody.
 
 | Item | Description |
@@ -61,7 +67,7 @@ The section lists credentials and devices under the third-party user's custody.
 | **View more** button | It opens the **Credentials under my custody** report. |
 |**Green check mark** | It releases the password custody to other users. |
 
-* * *
+---
 
 ## Last access
 
@@ -75,6 +81,6 @@ This section lists the last accesses made by the third-party user.
 | **Duration** | It displays the duration of the session. |
 |**Hourglass icon**|It opens the **Increase access time** window. |
 
-* * *
+---
 
-Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/){target="_blank"}.
+Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).

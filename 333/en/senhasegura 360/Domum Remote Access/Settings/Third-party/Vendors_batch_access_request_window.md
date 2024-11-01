@@ -1,8 +1,10 @@
 # Vendors batch access request window
 
+<!-- Fix link -->
 This article describes the fields in the batch access request window for Domum RemoteAccess. For more details, see the documentation on [Batch access for full users](/v3-33/docs/domum-batch-access-for-full-users) or [Batch access for limited users](/v3-33/docs/domum-batch-access-for-limited-users).
 
 ## **Path to Access:**
+
 **Domum > Settings > Third Party > Vendors > [Vendor's Name] > Action Column > Group Icon (Request Batch Access)**
 
 ## Step 1 - General

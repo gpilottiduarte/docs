@@ -3,6 +3,7 @@
 After registering vendors you can update any data that is needed.
 
 ---
+
 ## Register vendors
 
 1. Access the **senhasegura** platform.
@@ -31,4 +32,5 @@ After registering vendors you can update any data that is needed.
 The system will display a confirmation message.
 
 ---
-Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/){target=`_blank`}.
+
+Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).

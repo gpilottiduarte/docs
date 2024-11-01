@@ -9,7 +9,7 @@ These reports can be accessed at:
 
 They respectively present credential information for **Desktop Applications**, categorized into **Vendors**, **Third-Party Users**, **Internal User Groups**, and **Internal Users**.
 
-## Report details:
+## Report details
 
 ### Icons
 

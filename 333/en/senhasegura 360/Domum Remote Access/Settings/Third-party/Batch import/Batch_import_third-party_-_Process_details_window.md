@@ -2,15 +2,16 @@
 
 This article presents the information in the **Process details** pop-up window relative to the batch import for third-party users.
 
+<!-- Fix callout -->
 :::(Info) (Info)
-Path to access: 
+Path to access:
 
-* **Domum Remote Access > Settings > Third-party > Batch import** > An import record from the list **> Action** column **> Process details** (represented by the list icon) **> Process details pop-up window**
+- **Domum Remote Access > Settings > Third-party > Batch import** > An import record from the list **> Action** column **> Process details** (represented by the list icon) **> Process details pop-up window**
 :::
 
 ## Header
-The header contains the following fields:
 
+The header contains the following fields:
 
 | Item | Description |
 | --- | --- |
@@ -21,8 +22,8 @@ The header contains the following fields:
 | **Locale** | Displays the language on the senhasegura platform that the user was using at the time of import. This information is used to process the spreadsheet.  |
 
 ## Lower table
-The table contains the following fields:
 
+The table contains the following fields:
 
 | Item | Description |
 | --- | --- |
@@ -35,5 +36,3 @@ The table contains the following fields:
 | **End** | Displays the date and time the process ended. |
 | **Progress** | Displays, in percentage, the process progress.  |
 | **Error** | Indicates the presence or absence of error in the import process. |
-
-

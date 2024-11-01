@@ -13,18 +13,18 @@ Or
 
 1. In the side menu, select **Settings \> Internal users \> Groups**.  
 2. In the report list, locate the desired record and, in the **Action** column, click the icon represented by a group.
-3.  On the screen that opens, click **Access for limited users.**
+3. On the screen that opens, click **Access for limited users.**
 
 ## **Request access**
 
 ### General step
 
-| Item                         | Descrição                                                        |
-| :--------------------------- | :--------------------------------------------------------------- |
-| **Vendors/Internal group\*** | Name of the vendor or group that is requesting batch access.     |
-| **Justification\***          | Text to describe the justification for the batch access request. |
-| **Reason\***                 | Dropdown menu for choosing the reason for the request.           |
-| **Governance Code**          | ITMS governance code, if any.                                    |
+| Item | Descrição |
+| -- | -- |
+| **Vendors/Internal group\*** | Name of the vendor or group that is requesting batch access. |
+| **Justification\*** | Text to describe the justification for the batch access request. |
+| **Reason\*** | Dropdown menu for choosing the reason for the request. |
+| **Governance Code** | ITMS governance code, if any. |
 
 ### Devices step
 
@@ -35,12 +35,12 @@ Or
 
 ### Credentials step
 
-| Item               | Description                                                                                                       |
-| :----------------- | :---------------------------------------------------------------------------------------------------------------- |
-| **Add icon**       | Opens the window with the list of credentials available for access.                                               |
+| Item  | Description |
+| -- | -- |
+| **Add icon**       | Opens the window with the list of credentials available for access. |
 | **Trash can icon** | By adding a record to the list of credentials, the trash can icon is available to delete any record if necessary. |
-| **Start session**  | Checkbox available on each credential added to select permission to start a session.                              |
-| **View password**  | Checkbox available on each credential added to select the password viewing permission.                            |
+| **Start session**  | Checkbox available on each credential added to select permission to start a session. |
+| **View password**  | Checkbox available on each credential added to select the password viewing permission. |
 
 ### Restricted access step
 

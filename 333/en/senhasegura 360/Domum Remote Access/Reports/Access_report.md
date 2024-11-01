@@ -2,18 +2,21 @@
 
 This article provides descriptions of the information available in the access reports of **Domum Remote Access**.
 
+<!-- Fix callout -->
 :::(Info) (Info)
 Paths to access:
-* **Domum Remote Access > Reports > Access**
-* **Domum Remote Access > Dashboards > Monitoring center > Current access**
+
+- **Domum Remote Access > Reports > Access**
+- **Domum Remote Access > Dashboards > Monitoring center > Current access**
 :::
 
 In addition to showing information about accesses made in the Domum environment, these reports help make security decisions. They provide data for deciding, for example, whether to block access to specific locations.
 
-* * *
-## Icons
-In the upper right corner, you have the following icons:
+---
 
+## Icons
+
+In the upper right corner, you have the following icons:
 
 | Item | Description |
 | --- | --- |
@@ -24,8 +27,10 @@ In the upper right corner, you have the following icons:
 | **Export CSV** | Represented by the paper sheet icon, it downloads the report. |
 | **Schedule report** | Represented by the clock icon, it opens the **Schedule report** form. |
 
-* * *
+---
+
 ## Search fields
+
 If you activate the magnifying glass icon in the top right corner of the screen, you can access search options for the reports. Once you have applied the desired filters, the system displays the results in a list format.
 
 | Item | Description |
@@ -41,5 +46,3 @@ If you activate the magnifying glass icon in the top right corner of the screen,
 | **until** | Used to search for accesses by date. It displays a calendar to set a final date and create a time range. |
 | **Filter** | The button to execute the configured filtering process. |
 | **Clear** | The button to clear the fields with information. |
-
-

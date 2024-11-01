@@ -1,18 +1,19 @@
 # Third-party user access request window
 
+<!-- Fix link -->
 This article describes the information in the **Third-party access request** window of **Domum Remote Access**. For more details, access the documentation on [how to fill in the third-party access request](/v3-33/docs/domum-how-to-fill-in-the-access-request-to-third-party-users).
 
+<!-- Fix callout -->
 :::(Info) (Info)
 Paths to access:
 
-* **Domum > Request access > Third party > Action Menu > New**
-
-* **Domum > Settings > Third party > Users > [Username] > Action column > Request access**
+- **Domum > Request access > Third party > Action Menu > New**
+- **Domum > Settings > Third party > Users > [Username] > Action column > Request access**
 :::
 
 ## Stage 1 – Settings
-The section contains the following fields:
 
+The section contains the following fields:
 
 | Item | Description |
 | --- | --- |
@@ -23,16 +24,17 @@ The section contains the following fields:
 | **Governance code** | Optional field. It allows for the entry of a governance code, if applicable. |
 | **Next** | Button to go to the next step. |
 
+<!-- Fix callout -->
 :::(Info) (Info)
-When a limited type user is selected in the **User** field, the message "This is a limited user, credential permissions must be specified and will be valid until this access expires." is displayed. 
+When a limited type user is selected in the **User** field, the message "This is a limited user, credential permissions must be specified and will be valid until this access expires." is displayed.
 If the selected user is a full type, the message "This is a full user, this access will have permissions according to the user group roles." is displayed.
 :::
 
 ---
 
 ## Stage 2 – Devices
-The section contains the following fields:
 
+The section contains the following fields:
 
 | Item | Description |
 | --- | --- |
@@ -41,9 +43,10 @@ The section contains the following fields:
 | **Next** | Button to go to the next step. |
 
 ---
-## Stage 3 – Credentials
-The section contains the following fields:
 
+## Stage 3 – Credentials
+
+The section contains the following fields:
 
 | Item | Description |
 | --- | --- |
@@ -51,11 +54,13 @@ The section contains the following fields:
 | **Previous** | Button to return to the previous step. |
 | **Next** | Button to go to the next step. |
 
+<!-- Fix callout -->
 :::(Info) (Info)
 The section only displays credentials related to the previously selected devices.
 :::
 
 ---
+
 ## Stage 4 – Access limitation
 
 The section contains the following fields:
@@ -70,10 +75,10 @@ The section contains the following fields:
 | **Next** | Button to go to the next step. |
 
 ---
+
 ## Stage 5 – Review
 
 The section contains the following fields:
-
 
 | Item | Description |
 | --- | --- |

@@ -7,6 +7,7 @@ The reports can be accessed at:
 - **Dashboards > Internal User Groups > Information card > Credentials.**
 - **Dashboards > Internal Users > Information card > Credentials.**
 
+<!-- Fix callout -->
 :::(info) (Info)
 Each path determines which type of credential you'll be filtering. By clicking on any of the cards, a pop-up window will open with the credential information segregated according to your chosen report.
 :::
@@ -21,8 +22,6 @@ At the top of the **Credentials** window, you’ll find the following icons:
 | **Print report** | Identified by the printer icon, it opens a new page for printing the report. |
 | **Export CSV** | Identified by the paper sheet icon, it downloads the report in CSV format. |
 | **Schedule report** | Identified by the clock icon, it opens the Schedule report form. |
-
-## 
 
 ## Campos de busca
 
