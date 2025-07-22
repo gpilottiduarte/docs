@@ -18,7 +18,7 @@
             "pages": [
               "4.0/DevOps Secret Manager/devops-secret-manager-cli",
               "4.0/DevOps Secret Manager/dsm-bulk-operations",
-              "4.0/DevOps Secret Manager/how-to-manage-secrets",
+              "4.0/DevOps Secret Manager/how-to-manage-secrets"
             ]
           }
         ]
