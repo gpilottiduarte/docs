@@ -14,35 +14,11 @@
         "tab": "4.0",
         "groups": [
           {
-            "group": "Getting started",
+            "group": "DevOps Secret Manager",
             "pages": [
-              "index",
-              "quickstart",
-              "development"
-            ]
-          },
-          {
-            "group": "Customization",
-            "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          },
-          {
-            "group": "Writing content",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
+              "4.0/DevOps Secret Manager/devops-secret-manager-cli",
+              "4.0/DevOps Secret Manager/dsm-bulk-operations",
+              "4.0/DevOps Secret Manager/how-to-manage-secrets",
             ]
           }
         ]
